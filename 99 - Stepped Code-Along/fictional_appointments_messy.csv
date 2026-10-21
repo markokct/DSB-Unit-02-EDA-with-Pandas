@@ -1,0 +1,15 @@
+Appointment ID,Booking Date,Appointment Date,Department,Appointment Type,Wait Minutes,Scheduled Minutes,Status,Reminder Sent,Booking Channel
+ apt-1001 ,2026-09-01,2026-09-05, general practice ,initial,12,20,completed,yes,phone
+APT-1002,2026-09-01,2026-09-06,PHYSIO,follow up,25,30,Complete,YES,online
+APT-1003,2026-09-02,2026-09-06,derm ,Initial,8,20,COMPLETED,no,Phone
+APT-1004,2026-09-02,2026-09-07,General Practice,follow-up,not recorded,15,cancelled,yes,ONLINE
+APT-1005,2026-09-03,2026-09-08,Physiotherapy,Initial,40,forty,Completed,Y,front desk
+APT-1006,2026-09-03,2026-09-08,GENERAL PRACTICE,Initial,15,20,no show,N,phone
+APT-1007,2026-09-04,2026-09-09,Dermatology,Follow Up,18,15,completed ,true,Online
+APT-1008,2026-09-04,2026-09-10,general practice,initial,6,20,completed,yes,reception
+APT-1008,2026-09-04,2026-09-10,general practice,initial,6,20,completed,yes,reception
+APT-1009,2026-09-05,2026-09-10, physio ,Follow-up,-4,30,completed,1,web
+APT-1010,2026-09-05,2026-09-31,Dermatology,Initial,N/A,20,canceled,0,phone
+APT-1011,2026-09-12,2026-09-11,General Practice,Follow-up,10,15,completed,yes,unknown
+APT-1012,2026-09-06,2026-09-12,Physiotherapy,Initial,30,45,Missed,yes,Reception
+APT-1013,,2026-09-13,DERM,initial,22,20,completed,not recorded,online

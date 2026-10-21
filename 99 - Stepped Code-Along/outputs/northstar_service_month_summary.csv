@@ -1,0 +1,9 @@
+appointment_month,service,scheduled,completed,mean_wait,mean_satisfaction
+2026-01,Dental,7,5,21.4,4.0
+2026-01,Mental Health,7,5,23.6,3.0
+2026-01,Physiotherapy,6,5,19.2,5.0
+2026-01,Primary Care,7,5,24.6,2.0
+2026-02,Dental,3,2,15.0,4.0
+2026-02,Mental Health,3,2,27.0,3.0
+2026-02,Physiotherapy,4,3,22.0,5.0
+2026-02,Primary Care,3,3,26.333333333333332,2.0

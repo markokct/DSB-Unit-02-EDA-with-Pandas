@@ -1,0 +1,41 @@
+appointment_id,patient_id,booking_date,appointment_datetime,clinic,service,visit_type,status,wait_minutes,consultation_minutes,estimated_cost,satisfaction_score,priority_case,booking_channel
+A1001,P001,2026-01-03,2026-01-05 08:30:00,Central,Primary Care,Routine,Completed,5.0,20,48,2,True,Web
+A1002,P008,2026-01-03,2026-01-06 09:15:00,North,Mental Health,Initial,Completed,12.0,25,59,3,False,Referral
+A1003,P015,2026-01-03,2026-01-07 10:00:00,South,Dental,Follow-up,Completed,19.0,30,70,4,False,Desk
+A1004,P022,2026-01-03,2026-01-08 10:45:00,East,Physiotherapy,Urgent,Completed,26.0,35,81,5,False,Phone
+A1005,P029,2026-01-03,2026-01-09 08:30:00,Central,Primary Care,Routine,Completed,33.0,40,92,2,False,Web
+A1006,P007,2026-01-03,2026-01-10 09:15:00,North,Mental Health,Initial,No-show,,0,103,,False,Referral
+A1007,P014,2026-01-09,2026-01-11 10:00:00,South,Dental,Follow-up,Cancelled,,0,114,,True,Desk
+A1008,P021,2026-01-09,2026-01-12 10:45:00,East,Physiotherapy,Urgent,Completed,16.0,55,49,5,False,Phone
+A1009,P028,2026-01-09,2026-01-13 08:30:00,Central,Primary Care,Routine,Completed,23.0,60,60,2,False,Web
+A1010,P006,2026-01-09,2026-01-14 09:15:00,North,Mental Health,Initial,Completed,30.0,22,71,3,False,Referral
+A1011,P013,2026-01-09,2026-01-15 10:00:00,South,Dental,Follow-up,Completed,37.0,27,82,4,False,Desk
+A1012,P020,2026-01-09,2026-01-16 10:45:00,East,Physiotherapy,Urgent,Completed,6.0,32,93,5,False,Phone
+A1013,P027,2026-01-15,2026-01-17 08:30:00,Central,Primary Care,Routine,No-show,,0,104,,True,Web
+A1014,P005,2026-01-15,2026-01-18 09:15:00,North,Mental Health,Initial,Cancelled,,0,115,,False,Referral
+A1015,P012,2026-01-15,2026-01-19 10:00:00,South,Dental,Follow-up,Completed,27.0,47,50,4,False,Desk
+A1016,P019,2026-01-15,2026-01-20 10:45:00,East,Physiotherapy,Urgent,Completed,34.0,52,61,5,False,Phone
+A1017,P026,2026-01-15,2026-01-21 08:30:00,Central,Primary Care,Routine,Completed,41.0,57,72,2,False,Web
+A1018,P004,2026-01-15,2026-01-22 09:15:00,North,Mental Health,Initial,Completed,10.0,62,83,3,False,Referral
+A1019,P011,2026-01-21,2026-01-23 10:00:00,South,Dental,Follow-up,Completed,17.0,24,94,4,True,Desk
+A1020,P018,2026-01-21,2026-01-24 10:45:00,East,Physiotherapy,Urgent,No-show,,0,105,,False,Phone
+A1021,P025,2026-01-21,2026-01-25 08:30:00,Central,Primary Care,Routine,Cancelled,,0,116,,False,Web
+A1022,P003,2026-01-21,2026-01-26 09:15:00,North,Mental Health,Initial,Completed,38.0,39,51,3,False,Referral
+A1023,P010,2026-01-21,2026-01-27 10:00:00,South,Dental,Follow-up,Completed,7.0,44,62,4,False,Desk
+A1024,P017,2026-01-21,2026-01-28 10:45:00,East,Physiotherapy,Urgent,Completed,14.0,49,73,5,False,Phone
+A1025,P024,2026-01-27,2026-01-29 08:30:00,Central,Primary Care,Routine,Completed,21.0,54,84,2,True,Web
+A1026,P002,2026-01-27,2026-01-30 09:15:00,North,Mental Health,Initial,Completed,28.0,59,95,3,False,Referral
+A1027,P009,2026-01-27,2026-01-31 10:00:00,South,Dental,Follow-up,No-show,,0,106,,False,Desk
+A1028,P016,2026-01-27,2026-02-01 10:45:00,East,Physiotherapy,Urgent,Cancelled,,0,117,,False,Phone
+A1029,P023,2026-01-27,2026-02-02 08:30:00,Central,Primary Care,Routine,Completed,11.0,31,52,2,False,Web
+A1030,P001,2026-01-27,2026-02-03 09:15:00,North,Mental Health,Initial,Completed,18.0,36,63,3,False,Referral
+A1031,P008,2026-02-02,2026-02-04 10:00:00,South,Dental,Follow-up,Completed,25.0,41,74,4,True,Desk
+A1032,P015,2026-02-02,2026-02-05 10:45:00,East,Physiotherapy,Urgent,Completed,32.0,46,85,5,False,Phone
+A1033,P022,2026-02-02,2026-02-06 08:30:00,Central,Primary Care,Routine,Completed,39.0,51,96,2,False,Web
+A1034,P029,2026-02-02,2026-02-07 09:15:00,North,Mental Health,Initial,No-show,,0,107,,False,Referral
+A1035,P007,2026-02-02,2026-02-08 10:00:00,South,Dental,Follow-up,Cancelled,,0,118,,False,Desk
+A1036,P014,2026-02-02,2026-02-09 10:45:00,East,Physiotherapy,Urgent,Completed,22.0,23,53,5,False,Phone
+A1037,P021,2026-02-08,2026-02-10 08:30:00,Central,Primary Care,Routine,Completed,29.0,28,64,2,True,Web
+A1038,P028,2026-02-08,2026-02-11 09:15:00,North,Mental Health,Initial,Completed,36.0,33,75,3,False,Referral
+A1039,P006,2026-02-08,2026-02-12 10:00:00,South,Dental,Follow-up,Completed,5.0,38,86,4,False,Desk
+A1040,P013,2026-02-08,2026-02-13 10:45:00,East,Physiotherapy,Urgent,Completed,12.0,43,97,5,False,Phone

@@ -1,0 +1,17 @@
+step,affected_rows,decision
+Load raw data,14,Preserved the source table and created a separate working copy.
+Standardise column names,10,Applied lowercase snake_case labels to all columns.
+Convert placeholders to missing values,5,Mapped documented placeholder strings to pd.NA.
+Standardise appointment IDs,1,Removed surrounding spaces and converted letters to uppercase.
+Standardise department,14,"Mapped known aliases to ['Dermatology', 'General Practice', 'Physiotherapy']."
+Standardise appointment_type,14,"Mapped known aliases to ['Follow-up', 'Initial']."
+Standardise status,14,"Mapped known aliases to ['Cancelled', 'Completed', 'Missed']."
+Standardise booking_channel,13,"Mapped known aliases to ['Online', 'Phone', 'Reception']."
+Convert reminder_sent,13,Mapped recognised yes/no representations to nullable Boolean values.
+Convert wait_minutes to numeric,0,Converted valid text to nullable integers; invalid text became missing and was retained for review.
+Convert scheduled_minutes to numeric,1,Converted valid text to nullable integers; invalid text became missing and was retained for review.
+Convert booking_date to datetime,0,Parsed YYYY-MM-DD values; invalid dates became NaT and were retained for review.
+Convert appointment_date to datetime,1,Parsed YYYY-MM-DD values; invalid dates became NaT and were retained for review.
+Remove confirmed exact duplicates,1,Kept the first copy of each fully identical row.
+Label missing booking channels,1,Filled missing channel values with the explicit reporting category 'Unknown'.
+Apply row-level validation,6,"Flagged records with missing, invalid, or inconsistent values; retained them for review."

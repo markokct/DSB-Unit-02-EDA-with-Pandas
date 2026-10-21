@@ -1,0 +1,623 @@
+<svg xmlns="http://www.w3.org/2000/svg" class="mm" viewBox="0 0 1880 3318" width="1880" height="3318" role="img" aria-labelledby="mm-t mm-d" font-family="'Helvetica Neue', Arial, sans-serif">
+<title id="mm-t">Concept map: Exploratory Data Analysis in Python</title>
+<desc id="mm-d">12 modules and 245 concepts from the Unit 2 glossary. Each concept links to its glossary entry.</desc>
+<style>.mm a text{cursor:pointer}.mm a:hover text,.mm a:focus text{text-decoration:underline}.mm .c{font-size:12.5px;fill:#1d2328}.mm .g{font-size:12px;font-weight:600}.mm .m{font-size:13.5px;font-weight:700;fill:#fff}</style>
+<rect width="1880" height="3318" fill="#f6f7f5"/>
+<text x="30" y="42" font-size="26" font-weight="700" fill="#1d2328" font-family="Georgia, serif">Concept map: Exploratory Data Analysis in Python</text>
+<text x="30" y="66" font-size="13.5" fill="#55606a">12 modules, 245 key concepts. Modules run clockwise from the top right. Each concept links to its glossary entry.</text>
+<path d="M1000.0,1674.0 C1047.9,1674.0 1047.9,387.0 1095.8,387.0" fill="none" stroke="#2c5f8a" stroke-width="3" stroke-opacity="0.85"/>
+<path d="M1284.2,387.0 C1368.9,387.0 1368.9,142.5 1453.6,142.5" fill="none" stroke="#2c5f8a" stroke-width="1.8" stroke-opacity="0.7"/>
+<path d="M1546.4,142.5 C1590.2,142.5 1590.2,90.0 1634.0,90.0" fill="none" stroke="#2c5f8a" stroke-width="1" stroke-opacity="0.45"/>
+<a href="ds-eda-glossary.html#integer-int"><title>Integer (int)</title><circle cx="1637.0" cy="90.0" r="2.6" fill="#2c5f8a"/><text class="c" x="1644.0" y="94.3" text-anchor="start">Integer (int)</text></a>
+<path d="M1546.4,142.5 C1590.2,142.5 1590.2,111.0 1634.0,111.0" fill="none" stroke="#2c5f8a" stroke-width="1" stroke-opacity="0.45"/>
+<a href="ds-eda-glossary.html#float"><title>Float</title><circle cx="1637.0" cy="111.0" r="2.6" fill="#2c5f8a"/><text class="c" x="1644.0" y="115.3" text-anchor="start">Float</text></a>
+<path d="M1546.4,142.5 C1590.2,142.5 1590.2,132.0 1634.0,132.0" fill="none" stroke="#2c5f8a" stroke-width="1" stroke-opacity="0.45"/>
+<a href="ds-eda-glossary.html#string-str"><title>String (str)</title><circle cx="1637.0" cy="132.0" r="2.6" fill="#2c5f8a"/><text class="c" x="1644.0" y="136.3" text-anchor="start">String (str)</text></a>
+<path d="M1546.4,142.5 C1590.2,142.5 1590.2,153.0 1634.0,153.0" fill="none" stroke="#2c5f8a" stroke-width="1" stroke-opacity="0.45"/>
+<a href="ds-eda-glossary.html#boolean-bool"><title>Boolean (bool)</title><circle cx="1637.0" cy="153.0" r="2.6" fill="#2c5f8a"/><text class="c" x="1644.0" y="157.3" text-anchor="start">Boolean (bool)</text></a>
+<path d="M1546.4,142.5 C1590.2,142.5 1590.2,174.0 1634.0,174.0" fill="none" stroke="#2c5f8a" stroke-width="1" stroke-opacity="0.45"/>
+<a href="ds-eda-glossary.html#none"><title>None</title><circle cx="1637.0" cy="174.0" r="2.6" fill="#2c5f8a"/><text class="c" x="1644.0" y="178.3" text-anchor="start">None</text></a>
+<path d="M1546.4,142.5 C1590.2,142.5 1590.2,195.0 1634.0,195.0" fill="none" stroke="#2c5f8a" stroke-width="1" stroke-opacity="0.45"/>
+<a href="ds-eda-glossary.html#type-conversion-casting"><title>Type conversion (casting)</title><circle cx="1637.0" cy="195.0" r="2.6" fill="#2c5f8a"/><text class="c" x="1644.0" y="199.3" text-anchor="start">Type conversion</text></a>
+<rect x="1453.6" y="131.5" width="92.8" height="22" rx="11" fill="#fff" stroke="#2c5f8a" stroke-width="1.6"/><text class="g" x="1500.0" y="146.7" text-anchor="middle" fill="#2c5f8a">Data types</text>
+<path d="M1284.2,387.0 C1368.0,387.0 1368.0,270.0 1451.9,270.0" fill="none" stroke="#2c5f8a" stroke-width="1.8" stroke-opacity="0.7"/>
+<path d="M1548.1,270.0 C1591.1,270.0 1591.1,228.0 1634.0,228.0" fill="none" stroke="#2c5f8a" stroke-width="1" stroke-opacity="0.45"/>
+<a href="ds-eda-glossary.html#list"><title>List</title><circle cx="1637.0" cy="228.0" r="2.6" fill="#2c5f8a"/><text class="c" x="1644.0" y="232.3" text-anchor="start">List</text></a>
+<path d="M1548.1,270.0 C1591.1,270.0 1591.1,249.0 1634.0,249.0" fill="none" stroke="#2c5f8a" stroke-width="1" stroke-opacity="0.45"/>
+<a href="ds-eda-glossary.html#tuple"><title>Tuple</title><circle cx="1637.0" cy="249.0" r="2.6" fill="#2c5f8a"/><text class="c" x="1644.0" y="253.3" text-anchor="start">Tuple</text></a>
+<path d="M1548.1,270.0 C1591.1,270.0 1591.1,270.0 1634.0,270.0" fill="none" stroke="#2c5f8a" stroke-width="1" stroke-opacity="0.45"/>
+<a href="ds-eda-glossary.html#dictionary-dict"><title>Dictionary (dict)</title><circle cx="1637.0" cy="270.0" r="2.6" fill="#2c5f8a"/><text class="c" x="1644.0" y="274.3" text-anchor="start">Dictionary (dict)</text></a>
+<path d="M1548.1,270.0 C1591.1,270.0 1591.1,291.0 1634.0,291.0" fill="none" stroke="#2c5f8a" stroke-width="1" stroke-opacity="0.45"/>
+<a href="ds-eda-glossary.html#set"><title>Set</title><circle cx="1637.0" cy="291.0" r="2.6" fill="#2c5f8a"/><text class="c" x="1644.0" y="295.3" text-anchor="start">Set</text></a>
+<path d="M1548.1,270.0 C1591.1,270.0 1591.1,312.0 1634.0,312.0" fill="none" stroke="#2c5f8a" stroke-width="1" stroke-opacity="0.45"/>
+<a href="ds-eda-glossary.html#indexing-and-slicing"><title>Indexing and slicing</title><circle cx="1637.0" cy="312.0" r="2.6" fill="#2c5f8a"/><text class="c" x="1644.0" y="316.3" text-anchor="start">Indexing and slicing</text></a>
+<rect x="1451.9" y="259.0" width="96.3" height="22" rx="11" fill="#fff" stroke="#2c5f8a" stroke-width="1.6"/><text class="g" x="1500.0" y="274.2" text-anchor="middle" fill="#2c5f8a">Containers</text>
+<path d="M1284.2,387.0 C1365.9,387.0 1365.9,387.0 1447.6,387.0" fill="none" stroke="#2c5f8a" stroke-width="1.8" stroke-opacity="0.7"/>
+<path d="M1552.4,387.0 C1593.2,387.0 1593.2,345.0 1634.0,345.0" fill="none" stroke="#2c5f8a" stroke-width="1" stroke-opacity="0.45"/>
+<a href="ds-eda-glossary.html#for-loop"><title>for loop</title><circle cx="1637.0" cy="345.0" r="2.6" fill="#2c5f8a"/><text class="c" x="1644.0" y="349.3" text-anchor="start">for loop</text></a>
+<path d="M1552.4,387.0 C1593.2,387.0 1593.2,366.0 1634.0,366.0" fill="none" stroke="#2c5f8a" stroke-width="1" stroke-opacity="0.45"/>
+<a href="ds-eda-glossary.html#if-elif-else"><title>if / elif / else</title><circle cx="1637.0" cy="366.0" r="2.6" fill="#2c5f8a"/><text class="c" x="1644.0" y="370.3" text-anchor="start">if / elif / else</text></a>
+<path d="M1552.4,387.0 C1593.2,387.0 1593.2,387.0 1634.0,387.0" fill="none" stroke="#2c5f8a" stroke-width="1" stroke-opacity="0.45"/>
+<a href="ds-eda-glossary.html#list-comprehension"><title>List comprehension</title><circle cx="1637.0" cy="387.0" r="2.6" fill="#2c5f8a"/><text class="c" x="1644.0" y="391.3" text-anchor="start">List comprehension</text></a>
+<path d="M1552.4,387.0 C1593.2,387.0 1593.2,408.0 1634.0,408.0" fill="none" stroke="#2c5f8a" stroke-width="1" stroke-opacity="0.45"/>
+<a href="ds-eda-glossary.html#zip"><title>zip()</title><circle cx="1637.0" cy="408.0" r="2.6" fill="#2c5f8a"/><text class="c" x="1644.0" y="412.3" text-anchor="start">zip()</text></a>
+<path d="M1552.4,387.0 C1593.2,387.0 1593.2,429.0 1634.0,429.0" fill="none" stroke="#2c5f8a" stroke-width="1" stroke-opacity="0.45"/>
+<a href="ds-eda-glossary.html#sorted-sort-and-reversed"><title>sorted(), .sort() and reversed()</title><circle cx="1637.0" cy="429.0" r="2.6" fill="#2c5f8a"/><text class="c" x="1644.0" y="433.3" text-anchor="start">sorted() and .sort()</text></a>
+<rect x="1447.6" y="376.0" width="104.7" height="22" rx="11" fill="#fff" stroke="#2c5f8a" stroke-width="1.6"/><text class="g" x="1500.0" y="391.2" text-anchor="middle" fill="#2c5f8a">Control flow</text>
+<path d="M1284.2,387.0 C1349.9,387.0 1349.9,504.0 1415.7,504.0" fill="none" stroke="#2c5f8a" stroke-width="1.8" stroke-opacity="0.7"/>
+<path d="M1584.3,504.0 C1609.1,504.0 1609.1,462.0 1634.0,462.0" fill="none" stroke="#2c5f8a" stroke-width="1" stroke-opacity="0.45"/>
+<a href="ds-eda-glossary.html#function-def"><title>Function (def)</title><circle cx="1637.0" cy="462.0" r="2.6" fill="#2c5f8a"/><text class="c" x="1644.0" y="466.3" text-anchor="start">Function (def)</text></a>
+<path d="M1584.3,504.0 C1609.1,504.0 1609.1,483.0 1634.0,483.0" fill="none" stroke="#2c5f8a" stroke-width="1" stroke-opacity="0.45"/>
+<a href="ds-eda-glossary.html#lambda"><title>lambda</title><circle cx="1637.0" cy="483.0" r="2.6" fill="#2c5f8a"/><text class="c" x="1644.0" y="487.3" text-anchor="start">lambda</text></a>
+<path d="M1584.3,504.0 C1609.1,504.0 1609.1,504.0 1634.0,504.0" fill="none" stroke="#2c5f8a" stroke-width="1" stroke-opacity="0.45"/>
+<a href="ds-eda-glossary.html#function-method-and-attribute"><title>Function, method and attribute</title><circle cx="1637.0" cy="504.0" r="2.6" fill="#2c5f8a"/><text class="c" x="1644.0" y="508.3" text-anchor="start">Method vs attribute</text></a>
+<path d="M1584.3,504.0 C1609.1,504.0 1609.1,525.0 1634.0,525.0" fill="none" stroke="#2c5f8a" stroke-width="1" stroke-opacity="0.45"/>
+<a href="ds-eda-glossary.html#writing-your-own-class"><title>Writing your own class</title><circle cx="1637.0" cy="525.0" r="2.6" fill="#2c5f8a"/><text class="c" x="1644.0" y="529.3" text-anchor="start">Writing your own class</text></a>
+<path d="M1584.3,504.0 C1609.1,504.0 1609.1,546.0 1634.0,546.0" fill="none" stroke="#2c5f8a" stroke-width="1" stroke-opacity="0.45"/>
+<a href="ds-eda-glossary.html#try-except"><title>try / except</title><circle cx="1637.0" cy="546.0" r="2.6" fill="#2c5f8a"/><text class="c" x="1644.0" y="550.3" text-anchor="start">try / except</text></a>
+<rect x="1415.7" y="493.0" width="168.6" height="22" rx="11" fill="#fff" stroke="#2c5f8a" stroke-width="1.6"/><text class="g" x="1500.0" y="508.2" text-anchor="middle" fill="#2c5f8a">Functions and classes</text>
+<path d="M1284.2,387.0 C1363.1,387.0 1363.1,631.5 1442.1,631.5" fill="none" stroke="#2c5f8a" stroke-width="1.8" stroke-opacity="0.7"/>
+<path d="M1557.9,631.5 C1595.9,631.5 1595.9,579.0 1634.0,579.0" fill="none" stroke="#2c5f8a" stroke-width="1" stroke-opacity="0.45"/>
+<a href="ds-eda-glossary.html#import"><title>import</title><circle cx="1637.0" cy="579.0" r="2.6" fill="#2c5f8a"/><text class="c" x="1644.0" y="583.3" text-anchor="start">import</text></a>
+<path d="M1557.9,631.5 C1595.9,631.5 1595.9,600.0 1634.0,600.0" fill="none" stroke="#2c5f8a" stroke-width="1" stroke-opacity="0.45"/>
+<a href="ds-eda-glossary.html#jupyter-notebook"><title>Jupyter notebook</title><circle cx="1637.0" cy="600.0" r="2.6" fill="#2c5f8a"/><text class="c" x="1644.0" y="604.3" text-anchor="start">Jupyter notebook</text></a>
+<path d="M1557.9,631.5 C1595.9,631.5 1595.9,621.0 1634.0,621.0" fill="none" stroke="#2c5f8a" stroke-width="1" stroke-opacity="0.45"/>
+<a href="ds-eda-glossary.html#f-string"><title>f-string</title><circle cx="1637.0" cy="621.0" r="2.6" fill="#2c5f8a"/><text class="c" x="1644.0" y="625.3" text-anchor="start">f-string</text></a>
+<path d="M1557.9,631.5 C1595.9,631.5 1595.9,642.0 1634.0,642.0" fill="none" stroke="#2c5f8a" stroke-width="1" stroke-opacity="0.45"/>
+<a href="ds-eda-glossary.html#raw-string-r"><title>Raw string (r&quot;...&quot;)</title><circle cx="1637.0" cy="642.0" r="2.6" fill="#2c5f8a"/><text class="c" x="1644.0" y="646.3" text-anchor="start">Raw strings</text></a>
+<path d="M1557.9,631.5 C1595.9,631.5 1595.9,663.0 1634.0,663.0" fill="none" stroke="#2c5f8a" stroke-width="1" stroke-opacity="0.45"/>
+<a href="ds-eda-glossary.html#reading-and-writing-text-files"><title>Reading and writing text files</title><circle cx="1637.0" cy="663.0" r="2.6" fill="#2c5f8a"/><text class="c" x="1644.0" y="667.3" text-anchor="start">Files</text></a>
+<path d="M1557.9,631.5 C1595.9,631.5 1595.9,684.0 1634.0,684.0" fill="none" stroke="#2c5f8a" stroke-width="1" stroke-opacity="0.45"/>
+<a href="ds-eda-glossary.html#assert"><title>assert</title><circle cx="1637.0" cy="684.0" r="2.6" fill="#2c5f8a"/><text class="c" x="1644.0" y="688.3" text-anchor="start">assert</text></a>
+<rect x="1442.1" y="620.5" width="115.8" height="22" rx="11" fill="#fff" stroke="#2c5f8a" stroke-width="1.6"/><text class="g" x="1500.0" y="635.7" text-anchor="middle" fill="#2c5f8a">Working style</text>
+<a href="ds-eda-glossary.html#s1-python-foundations"><title>Go to section: 1. Python foundations</title><rect x="1095.8" y="372.0" width="188.3" height="30" rx="15" fill="#2c5f8a"/><text class="m" x="1190.0" y="391.8" text-anchor="middle">1. Python foundations</text></a>
+<path d="M1000.0,1674.0 C1070.0,1674.0 1070.0,869.2 1140.0,869.2" fill="none" stroke="#1f7a6d" stroke-width="3" stroke-opacity="0.85"/>
+<path d="M1240.0,869.2 C1351.7,869.2 1351.7,778.5 1463.4,778.5" fill="none" stroke="#1f7a6d" stroke-width="1.8" stroke-opacity="0.7"/>
+<path d="M1536.6,778.5 C1585.3,778.5 1585.3,747.0 1634.0,747.0" fill="none" stroke="#1f7a6d" stroke-width="1" stroke-opacity="0.45"/>
+<a href="ds-eda-glossary.html#array-ndarray"><title>Array (ndarray)</title><circle cx="1637.0" cy="747.0" r="2.6" fill="#1f7a6d"/><text class="c" x="1644.0" y="751.3" text-anchor="start">Array (ndarray)</text></a>
+<path d="M1536.6,778.5 C1585.3,778.5 1585.3,768.0 1634.0,768.0" fill="none" stroke="#1f7a6d" stroke-width="1" stroke-opacity="0.45"/>
+<a href="ds-eda-glossary.html#vectorized-operation"><title>Vectorized operation</title><circle cx="1637.0" cy="768.0" r="2.6" fill="#1f7a6d"/><text class="c" x="1644.0" y="772.3" text-anchor="start">Vectorized operation</text></a>
+<path d="M1536.6,778.5 C1585.3,778.5 1585.3,789.0 1634.0,789.0" fill="none" stroke="#1f7a6d" stroke-width="1" stroke-opacity="0.45"/>
+<a href="ds-eda-glossary.html#reshape-1-1"><title>reshape(-1, 1)</title><circle cx="1637.0" cy="789.0" r="2.6" fill="#1f7a6d"/><text class="c" x="1644.0" y="793.3" text-anchor="start">reshape(-1, 1)</text></a>
+<path d="M1536.6,778.5 C1585.3,778.5 1585.3,810.0 1634.0,810.0" fill="none" stroke="#1f7a6d" stroke-width="1" stroke-opacity="0.45"/>
+<a href="ds-eda-glossary.html#np-concatenate-and-np-append"><title>np.concatenate() and np.append()</title><circle cx="1637.0" cy="810.0" r="2.6" fill="#1f7a6d"/><text class="c" x="1644.0" y="814.3" text-anchor="start">np.concatenate()</text></a>
+<rect x="1463.4" y="767.5" width="73.2" height="22" rx="11" fill="#fff" stroke="#1f7a6d" stroke-width="1.6"/><text class="g" x="1500.0" y="782.7" text-anchor="middle" fill="#1f7a6d">Arrays</text>
+<path d="M1240.0,869.2 C1343.2,869.2 1343.2,864.0 1446.4,864.0" fill="none" stroke="#1f7a6d" stroke-width="1.8" stroke-opacity="0.7"/>
+<path d="M1553.6,864.0 C1593.8,864.0 1593.8,843.0 1634.0,843.0" fill="none" stroke="#1f7a6d" stroke-width="1" stroke-opacity="0.45"/>
+<a href="ds-eda-glossary.html#random-seed"><title>Random seed</title><circle cx="1637.0" cy="843.0" r="2.6" fill="#1f7a6d"/><text class="c" x="1644.0" y="847.3" text-anchor="start">Random seed</text></a>
+<path d="M1553.6,864.0 C1593.8,864.0 1593.8,864.0 1634.0,864.0" fill="none" stroke="#1f7a6d" stroke-width="1" stroke-opacity="0.45"/>
+<a href="ds-eda-glossary.html#random-number-generators"><title>Random number generators</title><circle cx="1637.0" cy="864.0" r="2.6" fill="#1f7a6d"/><text class="c" x="1644.0" y="868.3" text-anchor="start">Random generators</text></a>
+<path d="M1553.6,864.0 C1593.8,864.0 1593.8,885.0 1634.0,885.0" fill="none" stroke="#1f7a6d" stroke-width="1" stroke-opacity="0.45"/>
+<a href="ds-eda-glossary.html#sampling-with-rng-choice"><title>Sampling with rng.choice()</title><circle cx="1637.0" cy="885.0" r="2.6" fill="#1f7a6d"/><text class="c" x="1644.0" y="889.3" text-anchor="start">rng.choice()</text></a>
+<rect x="1446.4" y="853.0" width="107.2" height="22" rx="11" fill="#fff" stroke="#1f7a6d" stroke-width="1.6"/><text class="g" x="1500.0" y="868.2" text-anchor="middle" fill="#1f7a6d">Randomness</text>
+<path d="M1240.0,869.2 C1333.4,869.2 1333.4,960.0 1426.9,960.0" fill="none" stroke="#1f7a6d" stroke-width="1.8" stroke-opacity="0.7"/>
+<path d="M1573.1,960.0 C1603.6,960.0 1603.6,918.0 1634.0,918.0" fill="none" stroke="#1f7a6d" stroke-width="1" stroke-opacity="0.45"/>
+<a href="ds-eda-glossary.html#nan"><title>NaN</title><circle cx="1637.0" cy="918.0" r="2.6" fill="#1f7a6d"/><text class="c" x="1644.0" y="922.3" text-anchor="start">NaN</text></a>
+<path d="M1573.1,960.0 C1603.6,960.0 1603.6,939.0 1634.0,939.0" fill="none" stroke="#1f7a6d" stroke-width="1" stroke-opacity="0.45"/>
+<a href="ds-eda-glossary.html#infinity-inf-from-dividing-by-zero"><title>Infinity (inf) from dividing by zero</title><circle cx="1637.0" cy="939.0" r="2.6" fill="#1f7a6d"/><text class="c" x="1644.0" y="943.3" text-anchor="start">Infinity (inf)</text></a>
+<path d="M1573.1,960.0 C1603.6,960.0 1603.6,960.0 1634.0,960.0" fill="none" stroke="#1f7a6d" stroke-width="1" stroke-opacity="0.45"/>
+<a href="ds-eda-glossary.html#math-functions-np-log-np-exp-np-sqrt-np-abs"><title>Math functions (np.log, np.exp, np.sqrt, np.abs)</title><circle cx="1637.0" cy="960.0" r="2.6" fill="#1f7a6d"/><text class="c" x="1644.0" y="964.3" text-anchor="start">Math functions</text></a>
+<path d="M1573.1,960.0 C1603.6,960.0 1603.6,981.0 1634.0,981.0" fill="none" stroke="#1f7a6d" stroke-width="1" stroke-opacity="0.45"/>
+<a href="ds-eda-glossary.html#np-maximum-and-np-clip"><title>np.maximum() and np.clip()</title><circle cx="1637.0" cy="981.0" r="2.6" fill="#1f7a6d"/><text class="c" x="1644.0" y="985.3" text-anchor="start">np.clip()</text></a>
+<path d="M1573.1,960.0 C1603.6,960.0 1603.6,1002.0 1634.0,1002.0" fill="none" stroke="#1f7a6d" stroke-width="1" stroke-opacity="0.45"/>
+<a href="ds-eda-glossary.html#np-where-and-np-select"><title>np.where() and np.select()</title><circle cx="1637.0" cy="1002.0" r="2.6" fill="#1f7a6d"/><text class="c" x="1644.0" y="1006.3" text-anchor="start">np.where() / np.select()</text></a>
+<rect x="1426.9" y="949.0" width="146.3" height="22" rx="11" fill="#fff" stroke="#1f7a6d" stroke-width="1.6"/><text class="g" x="1500.0" y="964.2" text-anchor="middle" fill="#1f7a6d">Maths and missing</text>
+<a href="ds-eda-glossary.html#s2-numpy-essentials"><title>Go to section: 2. NumPy</title><rect x="1140.0" y="854.2" width="100.0" height="30" rx="15" fill="#1f7a6d"/><text class="m" x="1190.0" y="874.0" text-anchor="middle">2. NumPy</text></a>
+<path d="M1000.0,1674.0 C1039.1,1674.0 1039.1,1308.8 1078.1,1308.8" fill="none" stroke="#5b3c99" stroke-width="3" stroke-opacity="0.85"/>
+<path d="M1301.9,1308.8 C1376.9,1308.8 1376.9,1117.5 1451.9,1117.5" fill="none" stroke="#5b3c99" stroke-width="1.8" stroke-opacity="0.7"/>
+<path d="M1548.1,1117.5 C1591.1,1117.5 1591.1,1065.0 1634.0,1065.0" fill="none" stroke="#5b3c99" stroke-width="1" stroke-opacity="0.45"/>
+<a href="ds-eda-glossary.html#series"><title>Series</title><circle cx="1637.0" cy="1065.0" r="2.6" fill="#5b3c99"/><text class="c" x="1644.0" y="1069.3" text-anchor="start">Series</text></a>
+<path d="M1548.1,1117.5 C1591.1,1117.5 1591.1,1086.0 1634.0,1086.0" fill="none" stroke="#5b3c99" stroke-width="1" stroke-opacity="0.45"/>
+<a href="ds-eda-glossary.html#dataframe"><title>DataFrame</title><circle cx="1637.0" cy="1086.0" r="2.6" fill="#5b3c99"/><text class="c" x="1644.0" y="1090.3" text-anchor="start">DataFrame</text></a>
+<path d="M1548.1,1117.5 C1591.1,1117.5 1591.1,1107.0 1634.0,1107.0" fill="none" stroke="#5b3c99" stroke-width="1" stroke-opacity="0.45"/>
+<a href="ds-eda-glossary.html#index"><title>Index</title><circle cx="1637.0" cy="1107.0" r="2.6" fill="#5b3c99"/><text class="c" x="1644.0" y="1111.3" text-anchor="start">Index</text></a>
+<path d="M1548.1,1117.5 C1591.1,1117.5 1591.1,1128.0 1634.0,1128.0" fill="none" stroke="#5b3c99" stroke-width="1" stroke-opacity="0.45"/>
+<a href="ds-eda-glossary.html#dtype"><title>dtype</title><circle cx="1637.0" cy="1128.0" r="2.6" fill="#5b3c99"/><text class="c" x="1644.0" y="1132.3" text-anchor="start">dtype</text></a>
+<path d="M1548.1,1117.5 C1591.1,1117.5 1591.1,1149.0 1634.0,1149.0" fill="none" stroke="#5b3c99" stroke-width="1" stroke-opacity="0.45"/>
+<a href="ds-eda-glossary.html#string-dtype-str-in-pandas-3"><title>String dtype (str) in pandas 3</title><circle cx="1637.0" cy="1149.0" r="2.6" fill="#5b3c99"/><text class="c" x="1644.0" y="1153.3" text-anchor="start">str dtype (pandas 3)</text></a>
+<path d="M1548.1,1117.5 C1591.1,1117.5 1591.1,1170.0 1634.0,1170.0" fill="none" stroke="#5b3c99" stroke-width="1" stroke-opacity="0.45"/>
+<a href="ds-eda-glossary.html#copy-on-write"><title>Copy-on-Write</title><circle cx="1637.0" cy="1170.0" r="2.6" fill="#5b3c99"/><text class="c" x="1644.0" y="1174.3" text-anchor="start">Copy-on-Write</text></a>
+<rect x="1451.9" y="1106.5" width="96.3" height="22" rx="11" fill="#fff" stroke="#5b3c99" stroke-width="1.6"/><text class="g" x="1500.0" y="1121.7" text-anchor="middle" fill="#5b3c99">Structures</text>
+<path d="M1301.9,1308.8 C1371.2,1308.8 1371.2,1245.0 1440.6,1245.0" fill="none" stroke="#5b3c99" stroke-width="1.8" stroke-opacity="0.7"/>
+<path d="M1559.4,1245.0 C1596.7,1245.0 1596.7,1203.0 1634.0,1203.0" fill="none" stroke="#5b3c99" stroke-width="1" stroke-opacity="0.45"/>
+<a href="ds-eda-glossary.html#pd-read-csv"><title>pd.read_csv()</title><circle cx="1637.0" cy="1203.0" r="2.6" fill="#5b3c99"/><text class="c" x="1644.0" y="1207.3" text-anchor="start">pd.read_csv()</text></a>
+<path d="M1559.4,1245.0 C1596.7,1245.0 1596.7,1224.0 1634.0,1224.0" fill="none" stroke="#5b3c99" stroke-width="1" stroke-opacity="0.45"/>
+<a href="ds-eda-glossary.html#read-csv-options-for-messy-files"><title>read_csv() options for messy files</title><circle cx="1637.0" cy="1224.0" r="2.6" fill="#5b3c99"/><text class="c" x="1644.0" y="1228.3" text-anchor="start">read_csv() options</text></a>
+<path d="M1559.4,1245.0 C1596.7,1245.0 1596.7,1245.0 1634.0,1245.0" fill="none" stroke="#5b3c99" stroke-width="1" stroke-opacity="0.45"/>
+<a href="ds-eda-glossary.html#pd-read-json"><title>pd.read_json()</title><circle cx="1637.0" cy="1245.0" r="2.6" fill="#5b3c99"/><text class="c" x="1644.0" y="1249.3" text-anchor="start">pd.read_json()</text></a>
+<path d="M1559.4,1245.0 C1596.7,1245.0 1596.7,1266.0 1634.0,1266.0" fill="none" stroke="#5b3c99" stroke-width="1" stroke-opacity="0.45"/>
+<a href="ds-eda-glossary.html#to-csv"><title>.to_csv()</title><circle cx="1637.0" cy="1266.0" r="2.6" fill="#5b3c99"/><text class="c" x="1644.0" y="1270.3" text-anchor="start">.to_csv()</text></a>
+<path d="M1559.4,1245.0 C1596.7,1245.0 1596.7,1287.0 1634.0,1287.0" fill="none" stroke="#5b3c99" stroke-width="1" stroke-opacity="0.45"/>
+<a href="ds-eda-glossary.html#excel-files-read-excel-and-to-excel"><title>Excel files: read_excel() and to_excel()</title><circle cx="1637.0" cy="1287.0" r="2.6" fill="#5b3c99"/><text class="c" x="1644.0" y="1291.3" text-anchor="start">Excel files</text></a>
+<rect x="1440.6" y="1234.0" width="118.9" height="22" rx="11" fill="#fff" stroke="#5b3c99" stroke-width="1.6"/><text class="g" x="1500.0" y="1249.2" text-anchor="middle" fill="#5b3c99">Load and save</text>
+<path d="M1301.9,1308.8 C1381.6,1308.8 1381.6,1372.5 1461.4,1372.5" fill="none" stroke="#5b3c99" stroke-width="1.8" stroke-opacity="0.7"/>
+<path d="M1538.6,1372.5 C1586.3,1372.5 1586.3,1320.0 1634.0,1320.0" fill="none" stroke="#5b3c99" stroke-width="1" stroke-opacity="0.45"/>
+<a href="ds-eda-glossary.html#head-and-tail"><title>.head() and .tail()</title><circle cx="1637.0" cy="1320.0" r="2.6" fill="#5b3c99"/><text class="c" x="1644.0" y="1324.3" text-anchor="start">.head() / .tail()</text></a>
+<path d="M1538.6,1372.5 C1586.3,1372.5 1586.3,1341.0 1634.0,1341.0" fill="none" stroke="#5b3c99" stroke-width="1" stroke-opacity="0.45"/>
+<a href="ds-eda-glossary.html#info"><title>.info()</title><circle cx="1637.0" cy="1341.0" r="2.6" fill="#5b3c99"/><text class="c" x="1644.0" y="1345.3" text-anchor="start">.info()</text></a>
+<path d="M1538.6,1372.5 C1586.3,1372.5 1586.3,1362.0 1634.0,1362.0" fill="none" stroke="#5b3c99" stroke-width="1" stroke-opacity="0.45"/>
+<a href="ds-eda-glossary.html#describe"><title>.describe()</title><circle cx="1637.0" cy="1362.0" r="2.6" fill="#5b3c99"/><text class="c" x="1644.0" y="1366.3" text-anchor="start">.describe()</text></a>
+<path d="M1538.6,1372.5 C1586.3,1372.5 1586.3,1383.0 1634.0,1383.0" fill="none" stroke="#5b3c99" stroke-width="1" stroke-opacity="0.45"/>
+<a href="ds-eda-glossary.html#value-counts"><title>.value_counts()</title><circle cx="1637.0" cy="1383.0" r="2.6" fill="#5b3c99"/><text class="c" x="1644.0" y="1387.3" text-anchor="start">.value_counts()</text></a>
+<path d="M1538.6,1372.5 C1586.3,1372.5 1586.3,1404.0 1634.0,1404.0" fill="none" stroke="#5b3c99" stroke-width="1" stroke-opacity="0.45"/>
+<a href="ds-eda-glossary.html#data-dictionary"><title>Data dictionary</title><circle cx="1637.0" cy="1404.0" r="2.6" fill="#5b3c99"/><text class="c" x="1644.0" y="1408.3" text-anchor="start">Data dictionary</text></a>
+<path d="M1538.6,1372.5 C1586.3,1372.5 1586.3,1425.0 1634.0,1425.0" fill="none" stroke="#5b3c99" stroke-width="1" stroke-opacity="0.45"/>
+<a href="ds-eda-glossary.html#sample"><title>.sample()</title><circle cx="1637.0" cy="1425.0" r="2.6" fill="#5b3c99"/><text class="c" x="1644.0" y="1429.3" text-anchor="start">.sample()</text></a>
+<rect x="1461.4" y="1361.5" width="77.2" height="22" rx="11" fill="#fff" stroke="#5b3c99" stroke-width="1.6"/><text class="g" x="1500.0" y="1376.7" text-anchor="middle" fill="#5b3c99">Inspect</text>
+<path d="M1301.9,1308.8 C1384.4,1308.8 1384.4,1500.0 1466.9,1500.0" fill="none" stroke="#5b3c99" stroke-width="1.8" stroke-opacity="0.7"/>
+<path d="M1533.1,1500.0 C1583.5,1500.0 1583.5,1458.0 1634.0,1458.0" fill="none" stroke="#5b3c99" stroke-width="1" stroke-opacity="0.45"/>
+<a href="ds-eda-glossary.html#selecting-columns"><title>Selecting columns</title><circle cx="1637.0" cy="1458.0" r="2.6" fill="#5b3c99"/><text class="c" x="1644.0" y="1462.3" text-anchor="start">Selecting columns</text></a>
+<path d="M1533.1,1500.0 C1583.5,1500.0 1583.5,1479.0 1634.0,1479.0" fill="none" stroke="#5b3c99" stroke-width="1" stroke-opacity="0.45"/>
+<a href="ds-eda-glossary.html#boolean-mask-filtering"><title>Boolean mask (filtering)</title><circle cx="1637.0" cy="1479.0" r="2.6" fill="#5b3c99"/><text class="c" x="1644.0" y="1483.3" text-anchor="start">Boolean mask</text></a>
+<path d="M1533.1,1500.0 C1583.5,1500.0 1583.5,1500.0 1634.0,1500.0" fill="none" stroke="#5b3c99" stroke-width="1" stroke-opacity="0.45"/>
+<a href="ds-eda-glossary.html#comparison-methods-and-between"><title>Comparison methods and .between()</title><circle cx="1637.0" cy="1500.0" r="2.6" fill="#5b3c99"/><text class="c" x="1644.0" y="1504.3" text-anchor="start">.between()</text></a>
+<path d="M1533.1,1500.0 C1583.5,1500.0 1583.5,1521.0 1634.0,1521.0" fill="none" stroke="#5b3c99" stroke-width="1" stroke-opacity="0.45"/>
+<a href="ds-eda-glossary.html#select-dtypes"><title>.select_dtypes()</title><circle cx="1637.0" cy="1521.0" r="2.6" fill="#5b3c99"/><text class="c" x="1644.0" y="1525.3" text-anchor="start">.select_dtypes()</text></a>
+<path d="M1533.1,1500.0 C1583.5,1500.0 1583.5,1542.0 1634.0,1542.0" fill="none" stroke="#5b3c99" stroke-width="1" stroke-opacity="0.45"/>
+<a href="ds-eda-glossary.html#sort-values-and-sort-index"><title>.sort_values() and .sort_index()</title><circle cx="1637.0" cy="1542.0" r="2.6" fill="#5b3c99"/><text class="c" x="1644.0" y="1546.3" text-anchor="start">Sorting</text></a>
+<rect x="1466.9" y="1489.0" width="66.2" height="22" rx="11" fill="#fff" stroke="#5b3c99" stroke-width="1.6"/><text class="g" x="1500.0" y="1504.2" text-anchor="middle" fill="#5b3c99">Select</text>
+<a href="ds-eda-glossary.html#s3-pandas-loading-inspecting-and-selecting"><title>Go to section: 3. pandas: load and select</title><rect x="1078.1" y="1293.8" width="223.7" height="30" rx="15" fill="#5b3c99"/><text class="m" x="1190.0" y="1313.5" text-anchor="middle">3. pandas: load and select</text></a>
+<path d="M1000.0,1674.0 C1032.6,1674.0 1032.6,1917.8 1065.2,1917.8" fill="none" stroke="#7d4fc2" stroke-width="3" stroke-opacity="0.85"/>
+<path d="M1314.8,1917.8 C1391.9,1917.8 1391.9,1657.5 1468.9,1657.5" fill="none" stroke="#7d4fc2" stroke-width="1.8" stroke-opacity="0.7"/>
+<path d="M1531.1,1657.5 C1582.5,1657.5 1582.5,1605.0 1634.0,1605.0" fill="none" stroke="#7d4fc2" stroke-width="1" stroke-opacity="0.45"/>
+<a href="ds-eda-glossary.html#grain-of-a-table"><title>Grain of a table</title><circle cx="1637.0" cy="1605.0" r="2.6" fill="#7d4fc2"/><text class="c" x="1644.0" y="1609.3" text-anchor="start">Grain of a table</text></a>
+<path d="M1531.1,1657.5 C1582.5,1657.5 1582.5,1626.0 1634.0,1626.0" fill="none" stroke="#7d4fc2" stroke-width="1" stroke-opacity="0.45"/>
+<a href="ds-eda-glossary.html#astype"><title>.astype()</title><circle cx="1637.0" cy="1626.0" r="2.6" fill="#7d4fc2"/><text class="c" x="1644.0" y="1630.3" text-anchor="start">.astype()</text></a>
+<path d="M1531.1,1657.5 C1582.5,1657.5 1582.5,1647.0 1634.0,1647.0" fill="none" stroke="#7d4fc2" stroke-width="1" stroke-opacity="0.45"/>
+<a href="ds-eda-glossary.html#rename"><title>.rename()</title><circle cx="1637.0" cy="1647.0" r="2.6" fill="#7d4fc2"/><text class="c" x="1644.0" y="1651.3" text-anchor="start">.rename()</text></a>
+<path d="M1531.1,1657.5 C1582.5,1657.5 1582.5,1668.0 1634.0,1668.0" fill="none" stroke="#7d4fc2" stroke-width="1" stroke-opacity="0.45"/>
+<a href="ds-eda-glossary.html#str-accessor"><title>.str accessor</title><circle cx="1637.0" cy="1668.0" r="2.6" fill="#7d4fc2"/><text class="c" x="1644.0" y="1672.3" text-anchor="start">.str accessor</text></a>
+<path d="M1531.1,1657.5 C1582.5,1657.5 1582.5,1689.0 1634.0,1689.0" fill="none" stroke="#7d4fc2" stroke-width="1" stroke-opacity="0.45"/>
+<a href="ds-eda-glossary.html#cleaning-text-categories"><title>Cleaning text categories</title><circle cx="1637.0" cy="1689.0" r="2.6" fill="#7d4fc2"/><text class="c" x="1644.0" y="1693.3" text-anchor="start">Cleaning text categories</text></a>
+<path d="M1531.1,1657.5 C1582.5,1657.5 1582.5,1710.0 1634.0,1710.0" fill="none" stroke="#7d4fc2" stroke-width="1" stroke-opacity="0.45"/>
+<a href="ds-eda-glossary.html#drop-duplicates"><title>.drop_duplicates()</title><circle cx="1637.0" cy="1710.0" r="2.6" fill="#7d4fc2"/><text class="c" x="1644.0" y="1714.3" text-anchor="start">.drop_duplicates()</text></a>
+<rect x="1468.9" y="1646.5" width="62.1" height="22" rx="11" fill="#fff" stroke="#7d4fc2" stroke-width="1.6"/><text class="g" x="1500.0" y="1661.7" text-anchor="middle" fill="#7d4fc2">Clean</text>
+<path d="M1314.8,1917.8 C1383.4,1917.8 1383.4,1785.0 1451.9,1785.0" fill="none" stroke="#7d4fc2" stroke-width="1.8" stroke-opacity="0.7"/>
+<path d="M1548.1,1785.0 C1591.0,1785.0 1591.0,1743.0 1634.0,1743.0" fill="none" stroke="#7d4fc2" stroke-width="1" stroke-opacity="0.45"/>
+<a href="ds-eda-glossary.html#assign"><title>.assign()</title><circle cx="1637.0" cy="1743.0" r="2.6" fill="#7d4fc2"/><text class="c" x="1644.0" y="1747.3" text-anchor="start">.assign()</text></a>
+<path d="M1548.1,1785.0 C1591.0,1785.0 1591.0,1764.0 1634.0,1764.0" fill="none" stroke="#7d4fc2" stroke-width="1" stroke-opacity="0.45"/>
+<a href="ds-eda-glossary.html#pipe"><title>.pipe()</title><circle cx="1637.0" cy="1764.0" r="2.6" fill="#7d4fc2"/><text class="c" x="1644.0" y="1768.3" text-anchor="start">.pipe()</text></a>
+<path d="M1548.1,1785.0 C1591.0,1785.0 1591.0,1785.0 1634.0,1785.0" fill="none" stroke="#7d4fc2" stroke-width="1" stroke-opacity="0.45"/>
+<a href="ds-eda-glossary.html#method-chaining"><title>Method chaining</title><circle cx="1637.0" cy="1785.0" r="2.6" fill="#7d4fc2"/><text class="c" x="1644.0" y="1789.3" text-anchor="start">Method chaining</text></a>
+<path d="M1548.1,1785.0 C1591.0,1785.0 1591.0,1806.0 1634.0,1806.0" fill="none" stroke="#7d4fc2" stroke-width="1" stroke-opacity="0.45"/>
+<a href="ds-eda-glossary.html#shift-diff-and-cumulative-sums"><title>.shift(), .diff() and cumulative sums</title><circle cx="1637.0" cy="1806.0" r="2.6" fill="#7d4fc2"/><text class="c" x="1644.0" y="1810.3" text-anchor="start">.shift() and .cumsum()</text></a>
+<path d="M1548.1,1785.0 C1591.0,1785.0 1591.0,1827.0 1634.0,1827.0" fill="none" stroke="#7d4fc2" stroke-width="1" stroke-opacity="0.45"/>
+<a href="ds-eda-glossary.html#rank"><title>.rank()</title><circle cx="1637.0" cy="1827.0" r="2.6" fill="#7d4fc2"/><text class="c" x="1644.0" y="1831.3" text-anchor="start">.rank()</text></a>
+<rect x="1451.9" y="1774.0" width="96.1" height="22" rx="11" fill="#fff" stroke="#7d4fc2" stroke-width="1.6"/><text class="g" x="1500.0" y="1789.2" text-anchor="middle" fill="#7d4fc2">Transform</text>
+<path d="M1314.8,1917.8 C1370.2,1917.8 1370.2,1912.5 1425.5,1912.5" fill="none" stroke="#7d4fc2" stroke-width="1.8" stroke-opacity="0.7"/>
+<path d="M1574.5,1912.5 C1604.2,1912.5 1604.2,1860.0 1634.0,1860.0" fill="none" stroke="#7d4fc2" stroke-width="1" stroke-opacity="0.45"/>
+<a href="ds-eda-glossary.html#groupby"><title>groupby()</title><circle cx="1637.0" cy="1860.0" r="2.6" fill="#7d4fc2"/><text class="c" x="1644.0" y="1864.3" text-anchor="start">groupby()</text></a>
+<path d="M1574.5,1912.5 C1604.2,1912.5 1604.2,1881.0 1634.0,1881.0" fill="none" stroke="#7d4fc2" stroke-width="1" stroke-opacity="0.45"/>
+<a href="ds-eda-glossary.html#named-aggregation"><title>Named aggregation</title><circle cx="1637.0" cy="1881.0" r="2.6" fill="#7d4fc2"/><text class="c" x="1644.0" y="1885.3" text-anchor="start">Named aggregation</text></a>
+<path d="M1574.5,1912.5 C1604.2,1912.5 1604.2,1902.0 1634.0,1902.0" fill="none" stroke="#7d4fc2" stroke-width="1" stroke-opacity="0.45"/>
+<a href="ds-eda-glossary.html#transform"><title>.transform()</title><circle cx="1637.0" cy="1902.0" r="2.6" fill="#7d4fc2"/><text class="c" x="1644.0" y="1906.3" text-anchor="start">.transform()</text></a>
+<path d="M1574.5,1912.5 C1604.2,1912.5 1604.2,1923.0 1634.0,1923.0" fill="none" stroke="#7d4fc2" stroke-width="1" stroke-opacity="0.45"/>
+<a href="ds-eda-glossary.html#pivot-table-and-pivot"><title>.pivot_table() and .pivot()</title><circle cx="1637.0" cy="1923.0" r="2.6" fill="#7d4fc2"/><text class="c" x="1644.0" y="1927.3" text-anchor="start">.pivot_table()</text></a>
+<path d="M1574.5,1912.5 C1604.2,1912.5 1604.2,1944.0 1634.0,1944.0" fill="none" stroke="#7d4fc2" stroke-width="1" stroke-opacity="0.45"/>
+<a href="ds-eda-glossary.html#melt"><title>.melt()</title><circle cx="1637.0" cy="1944.0" r="2.6" fill="#7d4fc2"/><text class="c" x="1644.0" y="1948.3" text-anchor="start">.melt()</text></a>
+<path d="M1574.5,1912.5 C1604.2,1912.5 1604.2,1965.0 1634.0,1965.0" fill="none" stroke="#7d4fc2" stroke-width="1" stroke-opacity="0.45"/>
+<a href="ds-eda-glossary.html#multiindex"><title>MultiIndex</title><circle cx="1637.0" cy="1965.0" r="2.6" fill="#7d4fc2"/><text class="c" x="1644.0" y="1969.3" text-anchor="start">MultiIndex</text></a>
+<rect x="1425.5" y="1901.5" width="149.0" height="22" rx="11" fill="#fff" stroke="#7d4fc2" stroke-width="1.6"/><text class="g" x="1500.0" y="1916.7" text-anchor="middle" fill="#7d4fc2">Group and reshape</text>
+<path d="M1314.8,1917.8 C1393.8,1917.8 1393.8,2050.5 1472.7,2050.5" fill="none" stroke="#7d4fc2" stroke-width="1.8" stroke-opacity="0.7"/>
+<path d="M1527.3,2050.5 C1580.7,2050.5 1580.7,1998.0 1634.0,1998.0" fill="none" stroke="#7d4fc2" stroke-width="1" stroke-opacity="0.45"/>
+<a href="ds-eda-glossary.html#inner-join"><title>Inner join</title><circle cx="1637.0" cy="1998.0" r="2.6" fill="#7d4fc2"/><text class="c" x="1644.0" y="2002.3" text-anchor="start">Inner join</text></a>
+<path d="M1527.3,2050.5 C1580.7,2050.5 1580.7,2019.0 1634.0,2019.0" fill="none" stroke="#7d4fc2" stroke-width="1" stroke-opacity="0.45"/>
+<a href="ds-eda-glossary.html#left-right-join"><title>Left / right join</title><circle cx="1637.0" cy="2019.0" r="2.6" fill="#7d4fc2"/><text class="c" x="1644.0" y="2023.3" text-anchor="start">Left / right join</text></a>
+<path d="M1527.3,2050.5 C1580.7,2050.5 1580.7,2040.0 1634.0,2040.0" fill="none" stroke="#7d4fc2" stroke-width="1" stroke-opacity="0.45"/>
+<a href="ds-eda-glossary.html#merge"><title>.merge()</title><circle cx="1637.0" cy="2040.0" r="2.6" fill="#7d4fc2"/><text class="c" x="1644.0" y="2044.3" text-anchor="start">.merge()</text></a>
+<path d="M1527.3,2050.5 C1580.7,2050.5 1580.7,2061.0 1634.0,2061.0" fill="none" stroke="#7d4fc2" stroke-width="1" stroke-opacity="0.45"/>
+<a href="ds-eda-glossary.html#validating-a-merge"><title>Validating a merge</title><circle cx="1637.0" cy="2061.0" r="2.6" fill="#7d4fc2"/><text class="c" x="1644.0" y="2065.3" text-anchor="start">Validating a merge</text></a>
+<path d="M1527.3,2050.5 C1580.7,2050.5 1580.7,2082.0 1634.0,2082.0" fill="none" stroke="#7d4fc2" stroke-width="1" stroke-opacity="0.45"/>
+<a href="ds-eda-glossary.html#checking-join-keys"><title>Checking join keys</title><circle cx="1637.0" cy="2082.0" r="2.6" fill="#7d4fc2"/><text class="c" x="1644.0" y="2086.3" text-anchor="start">Checking join keys</text></a>
+<path d="M1527.3,2050.5 C1580.7,2050.5 1580.7,2103.0 1634.0,2103.0" fill="none" stroke="#7d4fc2" stroke-width="1" stroke-opacity="0.45"/>
+<a href="ds-eda-glossary.html#pd-concat"><title>pd.concat()</title><circle cx="1637.0" cy="2103.0" r="2.6" fill="#7d4fc2"/><text class="c" x="1644.0" y="2107.3" text-anchor="start">pd.concat()</text></a>
+<rect x="1472.7" y="2039.5" width="54.6" height="22" rx="11" fill="#fff" stroke="#7d4fc2" stroke-width="1.6"/><text class="g" x="1500.0" y="2054.7" text-anchor="middle" fill="#7d4fc2">Join</text>
+<path d="M1314.8,1917.8 C1391.9,1917.8 1391.9,2178.0 1468.9,2178.0" fill="none" stroke="#7d4fc2" stroke-width="1.8" stroke-opacity="0.7"/>
+<path d="M1531.1,2178.0 C1582.5,2178.0 1582.5,2136.0 1634.0,2136.0" fill="none" stroke="#7d4fc2" stroke-width="1" stroke-opacity="0.45"/>
+<a href="ds-eda-glossary.html#pd-to-datetime"><title>pd.to_datetime()</title><circle cx="1637.0" cy="2136.0" r="2.6" fill="#7d4fc2"/><text class="c" x="1644.0" y="2140.3" text-anchor="start">pd.to_datetime()</text></a>
+<path d="M1531.1,2178.0 C1582.5,2178.0 1582.5,2157.0 1634.0,2157.0" fill="none" stroke="#7d4fc2" stroke-width="1" stroke-opacity="0.45"/>
+<a href="ds-eda-glossary.html#dt-accessor"><title>.dt accessor</title><circle cx="1637.0" cy="2157.0" r="2.6" fill="#7d4fc2"/><text class="c" x="1644.0" y="2161.3" text-anchor="start">.dt accessor</text></a>
+<path d="M1531.1,2178.0 C1582.5,2178.0 1582.5,2178.0 1634.0,2178.0" fill="none" stroke="#7d4fc2" stroke-width="1" stroke-opacity="0.45"/>
+<a href="ds-eda-glossary.html#timestamp-timedelta-and-date-arithmetic"><title>Timestamp, Timedelta and date arithmetic</title><circle cx="1637.0" cy="2178.0" r="2.6" fill="#7d4fc2"/><text class="c" x="1644.0" y="2182.3" text-anchor="start">Timestamp and Timedelta</text></a>
+<path d="M1531.1,2178.0 C1582.5,2178.0 1582.5,2199.0 1634.0,2199.0" fill="none" stroke="#7d4fc2" stroke-width="1" stroke-opacity="0.45"/>
+<a href="ds-eda-glossary.html#resample"><title>.resample()</title><circle cx="1637.0" cy="2199.0" r="2.6" fill="#7d4fc2"/><text class="c" x="1644.0" y="2203.3" text-anchor="start">.resample()</text></a>
+<path d="M1531.1,2178.0 C1582.5,2178.0 1582.5,2220.0 1634.0,2220.0" fill="none" stroke="#7d4fc2" stroke-width="1" stroke-opacity="0.45"/>
+<a href="ds-eda-glossary.html#to-period"><title>.to_period()</title><circle cx="1637.0" cy="2220.0" r="2.6" fill="#7d4fc2"/><text class="c" x="1644.0" y="2224.3" text-anchor="start">.to_period()</text></a>
+<rect x="1468.9" y="2167.0" width="62.1" height="22" rx="11" fill="#fff" stroke="#7d4fc2" stroke-width="1.6"/><text class="g" x="1500.0" y="2182.2" text-anchor="middle" fill="#7d4fc2">Dates</text>
+<a href="ds-eda-glossary.html#s4-pandas-cleaning-grouping-reshaping-and-joining"><title>Go to section: 4. pandas: clean and combine</title><rect x="1065.2" y="1902.8" width="249.6" height="30" rx="15" fill="#7d4fc2"/><text class="m" x="1190.0" y="1922.5" text-anchor="middle">4. pandas: clean and combine</text></a>
+<path d="M1000.0,1674.0 C1065.3,1674.0 1065.3,2484.8 1130.6,2484.8" fill="none" stroke="#b5541b" stroke-width="3" stroke-opacity="0.85"/>
+<path d="M1249.4,2484.8 C1351.5,2484.8 1351.5,2314.5 1453.6,2314.5" fill="none" stroke="#b5541b" stroke-width="1.8" stroke-opacity="0.7"/>
+<path d="M1546.4,2314.5 C1590.2,2314.5 1590.2,2283.0 1634.0,2283.0" fill="none" stroke="#b5541b" stroke-width="1" stroke-opacity="0.45"/>
+<a href="ds-eda-glossary.html#nominal"><title>Nominal</title><circle cx="1637.0" cy="2283.0" r="2.6" fill="#b5541b"/><text class="c" x="1644.0" y="2287.3" text-anchor="start">Nominal</text></a>
+<path d="M1546.4,2314.5 C1590.2,2314.5 1590.2,2304.0 1634.0,2304.0" fill="none" stroke="#b5541b" stroke-width="1" stroke-opacity="0.45"/>
+<a href="ds-eda-glossary.html#ordinal"><title>Ordinal</title><circle cx="1637.0" cy="2304.0" r="2.6" fill="#b5541b"/><text class="c" x="1644.0" y="2308.3" text-anchor="start">Ordinal</text></a>
+<path d="M1546.4,2314.5 C1590.2,2314.5 1590.2,2325.0 1634.0,2325.0" fill="none" stroke="#b5541b" stroke-width="1" stroke-opacity="0.45"/>
+<a href="ds-eda-glossary.html#interval"><title>Interval</title><circle cx="1637.0" cy="2325.0" r="2.6" fill="#b5541b"/><text class="c" x="1644.0" y="2329.3" text-anchor="start">Interval</text></a>
+<path d="M1546.4,2314.5 C1590.2,2314.5 1590.2,2346.0 1634.0,2346.0" fill="none" stroke="#b5541b" stroke-width="1" stroke-opacity="0.45"/>
+<a href="ds-eda-glossary.html#ratio"><title>Ratio</title><circle cx="1637.0" cy="2346.0" r="2.6" fill="#b5541b"/><text class="c" x="1644.0" y="2350.3" text-anchor="start">Ratio</text></a>
+<rect x="1453.6" y="2303.5" width="92.8" height="22" rx="11" fill="#fff" stroke="#b5541b" stroke-width="1.6"/><text class="g" x="1500.0" y="2318.7" text-anchor="middle" fill="#b5541b">Data types</text>
+<path d="M1249.4,2484.8 C1357.3,2484.8 1357.3,2410.5 1465.2,2410.5" fill="none" stroke="#b5541b" stroke-width="1.8" stroke-opacity="0.7"/>
+<path d="M1534.8,2410.5 C1584.4,2410.5 1584.4,2379.0 1634.0,2379.0" fill="none" stroke="#b5541b" stroke-width="1" stroke-opacity="0.45"/>
+<a href="ds-eda-glossary.html#mean"><title>Mean</title><circle cx="1637.0" cy="2379.0" r="2.6" fill="#b5541b"/><text class="c" x="1644.0" y="2383.3" text-anchor="start">Mean</text></a>
+<path d="M1534.8,2410.5 C1584.4,2410.5 1584.4,2400.0 1634.0,2400.0" fill="none" stroke="#b5541b" stroke-width="1" stroke-opacity="0.45"/>
+<a href="ds-eda-glossary.html#median"><title>Median</title><circle cx="1637.0" cy="2400.0" r="2.6" fill="#b5541b"/><text class="c" x="1644.0" y="2404.3" text-anchor="start">Median</text></a>
+<path d="M1534.8,2410.5 C1584.4,2410.5 1584.4,2421.0 1634.0,2421.0" fill="none" stroke="#b5541b" stroke-width="1" stroke-opacity="0.45"/>
+<a href="ds-eda-glossary.html#mode"><title>Mode</title><circle cx="1637.0" cy="2421.0" r="2.6" fill="#b5541b"/><text class="c" x="1644.0" y="2425.3" text-anchor="start">Mode</text></a>
+<path d="M1534.8,2410.5 C1584.4,2410.5 1584.4,2442.0 1634.0,2442.0" fill="none" stroke="#b5541b" stroke-width="1" stroke-opacity="0.45"/>
+<a href="ds-eda-glossary.html#worked-example-mean-vs-median-with-an-outlier"><title>Worked example: mean vs median with an outlier</title><circle cx="1637.0" cy="2442.0" r="2.6" fill="#b5541b"/><text class="c" x="1644.0" y="2446.3" text-anchor="start">Mean vs median</text></a>
+<rect x="1465.2" y="2399.5" width="69.7" height="22" rx="11" fill="#fff" stroke="#b5541b" stroke-width="1.6"/><text class="g" x="1500.0" y="2414.7" text-anchor="middle" fill="#b5541b">Centre</text>
+<path d="M1249.4,2484.8 C1356.4,2484.8 1356.4,2527.5 1463.4,2527.5" fill="none" stroke="#b5541b" stroke-width="1.8" stroke-opacity="0.7"/>
+<path d="M1536.6,2527.5 C1585.3,2527.5 1585.3,2475.0 1634.0,2475.0" fill="none" stroke="#b5541b" stroke-width="1" stroke-opacity="0.45"/>
+<a href="ds-eda-glossary.html#variance"><title>Variance</title><circle cx="1637.0" cy="2475.0" r="2.6" fill="#b5541b"/><text class="c" x="1644.0" y="2479.3" text-anchor="start">Variance</text></a>
+<path d="M1536.6,2527.5 C1585.3,2527.5 1585.3,2496.0 1634.0,2496.0" fill="none" stroke="#b5541b" stroke-width="1" stroke-opacity="0.45"/>
+<a href="ds-eda-glossary.html#standard-deviation"><title>Standard deviation</title><circle cx="1637.0" cy="2496.0" r="2.6" fill="#b5541b"/><text class="c" x="1644.0" y="2500.3" text-anchor="start">Standard deviation</text></a>
+<path d="M1536.6,2527.5 C1585.3,2527.5 1585.3,2517.0 1634.0,2517.0" fill="none" stroke="#b5541b" stroke-width="1" stroke-opacity="0.45"/>
+<a href="ds-eda-glossary.html#bessel-s-correction-ddof"><title>Bessel&#x27;s correction (ddof)</title><circle cx="1637.0" cy="2517.0" r="2.6" fill="#b5541b"/><text class="c" x="1644.0" y="2521.3" text-anchor="start">Bessel&#x27;s correction</text></a>
+<path d="M1536.6,2527.5 C1585.3,2527.5 1585.3,2538.0 1634.0,2538.0" fill="none" stroke="#b5541b" stroke-width="1" stroke-opacity="0.45"/>
+<a href="ds-eda-glossary.html#interquartile-range-iqr"><title>Interquartile range (IQR)</title><circle cx="1637.0" cy="2538.0" r="2.6" fill="#b5541b"/><text class="c" x="1644.0" y="2542.3" text-anchor="start">IQR</text></a>
+<path d="M1536.6,2527.5 C1585.3,2527.5 1585.3,2559.0 1634.0,2559.0" fill="none" stroke="#b5541b" stroke-width="1" stroke-opacity="0.45"/>
+<a href="ds-eda-glossary.html#iqr-outlier-fences"><title>IQR outlier fences</title><circle cx="1637.0" cy="2559.0" r="2.6" fill="#b5541b"/><text class="c" x="1644.0" y="2563.3" text-anchor="start">IQR outlier fences</text></a>
+<path d="M1536.6,2527.5 C1585.3,2527.5 1585.3,2580.0 1634.0,2580.0" fill="none" stroke="#b5541b" stroke-width="1" stroke-opacity="0.45"/>
+<a href="ds-eda-glossary.html#five-number-summary"><title>Five-number summary</title><circle cx="1637.0" cy="2580.0" r="2.6" fill="#b5541b"/><text class="c" x="1644.0" y="2584.3" text-anchor="start">Five-number summary</text></a>
+<rect x="1463.4" y="2516.5" width="73.2" height="22" rx="11" fill="#fff" stroke="#b5541b" stroke-width="1.6"/><text class="g" x="1500.0" y="2531.7" text-anchor="middle" fill="#b5541b">Spread</text>
+<path d="M1249.4,2484.8 C1358.3,2484.8 1358.3,2655.0 1467.2,2655.0" fill="none" stroke="#b5541b" stroke-width="1.8" stroke-opacity="0.7"/>
+<path d="M1532.8,2655.0 C1583.4,2655.0 1583.4,2613.0 1634.0,2613.0" fill="none" stroke="#b5541b" stroke-width="1" stroke-opacity="0.45"/>
+<a href="ds-eda-glossary.html#normal-gaussian-distribution"><title>Normal (Gaussian) distribution</title><circle cx="1637.0" cy="2613.0" r="2.6" fill="#b5541b"/><text class="c" x="1644.0" y="2617.3" text-anchor="start">Normal distribution</text></a>
+<path d="M1532.8,2655.0 C1583.4,2655.0 1583.4,2634.0 1634.0,2634.0" fill="none" stroke="#b5541b" stroke-width="1" stroke-opacity="0.45"/>
+<a href="ds-eda-glossary.html#skewness"><title>Skewness</title><circle cx="1637.0" cy="2634.0" r="2.6" fill="#b5541b"/><text class="c" x="1644.0" y="2638.3" text-anchor="start">Skewness</text></a>
+<path d="M1532.8,2655.0 C1583.4,2655.0 1583.4,2655.0 1634.0,2655.0" fill="none" stroke="#b5541b" stroke-width="1" stroke-opacity="0.45"/>
+<a href="ds-eda-glossary.html#kurtosis"><title>Kurtosis</title><circle cx="1637.0" cy="2655.0" r="2.6" fill="#b5541b"/><text class="c" x="1644.0" y="2659.3" text-anchor="start">Kurtosis</text></a>
+<path d="M1532.8,2655.0 C1583.4,2655.0 1583.4,2676.0 1634.0,2676.0" fill="none" stroke="#b5541b" stroke-width="1" stroke-opacity="0.45"/>
+<a href="ds-eda-glossary.html#bimodal-multimodal-distribution"><title>Bimodal / multimodal distribution</title><circle cx="1637.0" cy="2676.0" r="2.6" fill="#b5541b"/><text class="c" x="1644.0" y="2680.3" text-anchor="start">Bimodal distribution</text></a>
+<path d="M1532.8,2655.0 C1583.4,2655.0 1583.4,2697.0 1634.0,2697.0" fill="none" stroke="#b5541b" stroke-width="1" stroke-opacity="0.45"/>
+<a href="ds-eda-glossary.html#outlier"><title>Outlier</title><circle cx="1637.0" cy="2697.0" r="2.6" fill="#b5541b"/><text class="c" x="1644.0" y="2701.3" text-anchor="start">Outlier</text></a>
+<rect x="1467.2" y="2644.0" width="65.6" height="22" rx="11" fill="#fff" stroke="#b5541b" stroke-width="1.6"/><text class="g" x="1500.0" y="2659.2" text-anchor="middle" fill="#b5541b">Shape</text>
+<a href="ds-eda-glossary.html#s5-descriptive-statistics-and-distributions"><title>Go to section: 5. Statistics</title><rect x="1130.6" y="2469.8" width="118.8" height="30" rx="15" fill="#b5541b"/><text class="m" x="1190.0" y="2489.6" text-anchor="middle">5. Statistics</text></a>
+<path d="M1000.0,1674.0 C1058.8,1674.0 1058.8,3003.8 1117.6,3003.8" fill="none" stroke="#8a6d0f" stroke-width="3" stroke-opacity="0.85"/>
+<path d="M1262.4,3003.8 C1356.1,3003.8 1356.1,2812.5 1449.8,2812.5" fill="none" stroke="#8a6d0f" stroke-width="1.8" stroke-opacity="0.7"/>
+<path d="M1550.2,2812.5 C1592.1,2812.5 1592.1,2760.0 1634.0,2760.0" fill="none" stroke="#8a6d0f" stroke-width="1" stroke-opacity="0.45"/>
+<a href="ds-eda-glossary.html#bar-chart"><title>Bar chart</title><circle cx="1637.0" cy="2760.0" r="2.6" fill="#8a6d0f"/><text class="c" x="1644.0" y="2764.3" text-anchor="start">Bar chart</text></a>
+<path d="M1550.2,2812.5 C1592.1,2812.5 1592.1,2781.0 1634.0,2781.0" fill="none" stroke="#8a6d0f" stroke-width="1" stroke-opacity="0.45"/>
+<a href="ds-eda-glossary.html#scatter-plot"><title>Scatter plot</title><circle cx="1637.0" cy="2781.0" r="2.6" fill="#8a6d0f"/><text class="c" x="1644.0" y="2785.3" text-anchor="start">Scatter plot</text></a>
+<path d="M1550.2,2812.5 C1592.1,2812.5 1592.1,2802.0 1634.0,2802.0" fill="none" stroke="#8a6d0f" stroke-width="1" stroke-opacity="0.45"/>
+<a href="ds-eda-glossary.html#line-chart"><title>Line chart</title><circle cx="1637.0" cy="2802.0" r="2.6" fill="#8a6d0f"/><text class="c" x="1644.0" y="2806.3" text-anchor="start">Line chart</text></a>
+<path d="M1550.2,2812.5 C1592.1,2812.5 1592.1,2823.0 1634.0,2823.0" fill="none" stroke="#8a6d0f" stroke-width="1" stroke-opacity="0.45"/>
+<a href="ds-eda-glossary.html#histogram"><title>Histogram</title><circle cx="1637.0" cy="2823.0" r="2.6" fill="#8a6d0f"/><text class="c" x="1644.0" y="2827.3" text-anchor="start">Histogram</text></a>
+<path d="M1550.2,2812.5 C1592.1,2812.5 1592.1,2844.0 1634.0,2844.0" fill="none" stroke="#8a6d0f" stroke-width="1" stroke-opacity="0.45"/>
+<a href="ds-eda-glossary.html#box-plot"><title>Box plot</title><circle cx="1637.0" cy="2844.0" r="2.6" fill="#8a6d0f"/><text class="c" x="1644.0" y="2848.3" text-anchor="start">Box plot</text></a>
+<path d="M1550.2,2812.5 C1592.1,2812.5 1592.1,2865.0 1634.0,2865.0" fill="none" stroke="#8a6d0f" stroke-width="1" stroke-opacity="0.45"/>
+<a href="ds-eda-glossary.html#heatmap"><title>Heatmap</title><circle cx="1637.0" cy="2865.0" r="2.6" fill="#8a6d0f"/><text class="c" x="1644.0" y="2869.3" text-anchor="start">Heatmap</text></a>
+<rect x="1449.8" y="2801.5" width="100.3" height="22" rx="11" fill="#fff" stroke="#8a6d0f" stroke-width="1.6"/><text class="g" x="1500.0" y="2816.7" text-anchor="middle" fill="#8a6d0f">Chart types</text>
+<path d="M1262.4,3003.8 C1358.8,3003.8 1358.8,2950.5 1455.2,2950.5" fill="none" stroke="#8a6d0f" stroke-width="1.8" stroke-opacity="0.7"/>
+<path d="M1544.8,2950.5 C1589.4,2950.5 1589.4,2898.0 1634.0,2898.0" fill="none" stroke="#8a6d0f" stroke-width="1" stroke-opacity="0.45"/>
+<a href="ds-eda-glossary.html#figure"><title>Figure</title><circle cx="1637.0" cy="2898.0" r="2.6" fill="#8a6d0f"/><text class="c" x="1644.0" y="2902.3" text-anchor="start">Figure</text></a>
+<path d="M1544.8,2950.5 C1589.4,2950.5 1589.4,2919.0 1634.0,2919.0" fill="none" stroke="#8a6d0f" stroke-width="1" stroke-opacity="0.45"/>
+<a href="ds-eda-glossary.html#axes"><title>Axes</title><circle cx="1637.0" cy="2919.0" r="2.6" fill="#8a6d0f"/><text class="c" x="1644.0" y="2923.3" text-anchor="start">Axes</text></a>
+<path d="M1544.8,2950.5 C1589.4,2950.5 1589.4,2940.0 1634.0,2940.0" fill="none" stroke="#8a6d0f" stroke-width="1" stroke-opacity="0.45"/>
+<a href="ds-eda-glossary.html#plt-subplots"><title>plt.subplots()</title><circle cx="1637.0" cy="2940.0" r="2.6" fill="#8a6d0f"/><text class="c" x="1644.0" y="2944.3" text-anchor="start">plt.subplots()</text></a>
+<path d="M1544.8,2950.5 C1589.4,2950.5 1589.4,2961.0 1634.0,2961.0" fill="none" stroke="#8a6d0f" stroke-width="1" stroke-opacity="0.45"/>
+<a href="ds-eda-glossary.html#subplot-grids-subplot-add-subplot-delaxes-and-suptitle"><title>Subplot grids: subplot, add_subplot, delaxes and suptitle</title><circle cx="1637.0" cy="2961.0" r="2.6" fill="#8a6d0f"/><text class="c" x="1644.0" y="2965.3" text-anchor="start">Subplot grids</text></a>
+<path d="M1544.8,2950.5 C1589.4,2950.5 1589.4,2982.0 1634.0,2982.0" fill="none" stroke="#8a6d0f" stroke-width="1" stroke-opacity="0.45"/>
+<a href="ds-eda-glossary.html#annotations-text-reference-lines-and-legends"><title>Annotations: text, reference lines and legends</title><circle cx="1637.0" cy="2982.0" r="2.6" fill="#8a6d0f"/><text class="c" x="1644.0" y="2986.3" text-anchor="start">Annotations</text></a>
+<path d="M1544.8,2950.5 C1589.4,2950.5 1589.4,3003.0 1634.0,3003.0" fill="none" stroke="#8a6d0f" stroke-width="1" stroke-opacity="0.45"/>
+<a href="ds-eda-glossary.html#ticks-and-axis-limits"><title>Ticks and axis limits</title><circle cx="1637.0" cy="3003.0" r="2.6" fill="#8a6d0f"/><text class="c" x="1644.0" y="3007.3" text-anchor="start">Ticks and axis limits</text></a>
+<rect x="1455.2" y="2939.5" width="89.7" height="22" rx="11" fill="#fff" stroke="#8a6d0f" stroke-width="1.6"/><text class="g" x="1500.0" y="2954.7" text-anchor="middle" fill="#8a6d0f">matplotlib</text>
+<path d="M1262.4,3003.8 C1361.0,3003.8 1361.0,3078.0 1459.7,3078.0" fill="none" stroke="#8a6d0f" stroke-width="1.8" stroke-opacity="0.7"/>
+<path d="M1540.3,3078.0 C1587.2,3078.0 1587.2,3036.0 1634.0,3036.0" fill="none" stroke="#8a6d0f" stroke-width="1" stroke-opacity="0.45"/>
+<a href="ds-eda-glossary.html#figure-level-vs-axes-level-seaborn-functions"><title>Figure-level vs axes-level seaborn functions</title><circle cx="1637.0" cy="3036.0" r="2.6" fill="#8a6d0f"/><text class="c" x="1644.0" y="3040.3" text-anchor="start">Figure- vs axes-level</text></a>
+<path d="M1540.3,3078.0 C1587.2,3078.0 1587.2,3057.0 1634.0,3057.0" fill="none" stroke="#8a6d0f" stroke-width="1" stroke-opacity="0.45"/>
+<a href="ds-eda-glossary.html#small-multiples"><title>Small multiples</title><circle cx="1637.0" cy="3057.0" r="2.6" fill="#8a6d0f"/><text class="c" x="1644.0" y="3061.3" text-anchor="start">Small multiples</text></a>
+<path d="M1540.3,3078.0 C1587.2,3078.0 1587.2,3078.0 1634.0,3078.0" fill="none" stroke="#8a6d0f" stroke-width="1" stroke-opacity="0.45"/>
+<a href="ds-eda-glossary.html#sns-lineplot-sns-barplot-and-error-bars"><title>sns.lineplot(), sns.barplot() and error bars</title><circle cx="1637.0" cy="3078.0" r="2.6" fill="#8a6d0f"/><text class="c" x="1644.0" y="3082.3" text-anchor="start">Error bars</text></a>
+<path d="M1540.3,3078.0 C1587.2,3078.0 1587.2,3099.0 1634.0,3099.0" fill="none" stroke="#8a6d0f" stroke-width="1" stroke-opacity="0.45"/>
+<a href="ds-eda-glossary.html#trend-lines-regplot-and-lmplot"><title>Trend lines: regplot and lmplot</title><circle cx="1637.0" cy="3099.0" r="2.6" fill="#8a6d0f"/><text class="c" x="1644.0" y="3103.3" text-anchor="start">Trend lines</text></a>
+<path d="M1540.3,3078.0 C1587.2,3078.0 1587.2,3120.0 1634.0,3120.0" fill="none" stroke="#8a6d0f" stroke-width="1" stroke-opacity="0.45"/>
+<a href="ds-eda-glossary.html#themes-and-palettes-sns-set-theme"><title>Themes and palettes: sns.set_theme()</title><circle cx="1637.0" cy="3120.0" r="2.6" fill="#8a6d0f"/><text class="c" x="1644.0" y="3124.3" text-anchor="start">Themes and palettes</text></a>
+<rect x="1459.7" y="3067.0" width="80.7" height="22" rx="11" fill="#fff" stroke="#8a6d0f" stroke-width="1.6"/><text class="g" x="1500.0" y="3082.2" text-anchor="middle" fill="#8a6d0f">seaborn</text>
+<path d="M1262.4,3003.8 C1352.4,3003.8 1352.4,3195.0 1442.3,3195.0" fill="none" stroke="#8a6d0f" stroke-width="1.8" stroke-opacity="0.7"/>
+<path d="M1557.7,3195.0 C1595.8,3195.0 1595.8,3153.0 1634.0,3153.0" fill="none" stroke="#8a6d0f" stroke-width="1" stroke-opacity="0.45"/>
+<a href="ds-eda-glossary.html#choosing-a-chart-type"><title>Choosing a chart type</title><circle cx="1637.0" cy="3153.0" r="2.6" fill="#8a6d0f"/><text class="c" x="1644.0" y="3157.3" text-anchor="start">Choosing a chart type</text></a>
+<path d="M1557.7,3195.0 C1595.8,3195.0 1595.8,3174.0 1634.0,3174.0" fill="none" stroke="#8a6d0f" stroke-width="1" stroke-opacity="0.45"/>
+<a href="ds-eda-glossary.html#choosing-histogram-bins"><title>Choosing histogram bins</title><circle cx="1637.0" cy="3174.0" r="2.6" fill="#8a6d0f"/><text class="c" x="1644.0" y="3178.3" text-anchor="start">Choosing histogram bins</text></a>
+<path d="M1557.7,3195.0 C1595.8,3195.0 1595.8,3195.0 1634.0,3195.0" fill="none" stroke="#8a6d0f" stroke-width="1" stroke-opacity="0.45"/>
+<a href="ds-eda-glossary.html#misleading-charts"><title>Misleading charts</title><circle cx="1637.0" cy="3195.0" r="2.6" fill="#8a6d0f"/><text class="c" x="1644.0" y="3199.3" text-anchor="start">Misleading charts</text></a>
+<path d="M1557.7,3195.0 C1595.8,3195.0 1595.8,3216.0 1634.0,3216.0" fill="none" stroke="#8a6d0f" stroke-width="1" stroke-opacity="0.45"/>
+<a href="ds-eda-glossary.html#pandas-plot-options"><title>pandas .plot() options</title><circle cx="1637.0" cy="3216.0" r="2.6" fill="#8a6d0f"/><text class="c" x="1644.0" y="3220.3" text-anchor="start">pandas .plot() options</text></a>
+<path d="M1557.7,3195.0 C1595.8,3195.0 1595.8,3237.0 1634.0,3237.0" fill="none" stroke="#8a6d0f" stroke-width="1" stroke-opacity="0.45"/>
+<a href="ds-eda-glossary.html#plotly-plotly-express"><title>plotly (plotly express)</title><circle cx="1637.0" cy="3237.0" r="2.6" fill="#8a6d0f"/><text class="c" x="1644.0" y="3241.3" text-anchor="start">plotly</text></a>
+<rect x="1442.3" y="3184.0" width="115.4" height="22" rx="11" fill="#fff" stroke="#8a6d0f" stroke-width="1.6"/><text class="g" x="1500.0" y="3199.2" text-anchor="middle" fill="#8a6d0f">Good practice</text>
+<a href="ds-eda-glossary.html#s6-data-visualization"><title>Go to section: 6. Visualization</title><rect x="1117.6" y="2988.8" width="144.8" height="30" rx="15" fill="#8a6d0f"/><text class="m" x="1190.0" y="3008.6" text-anchor="middle">6. Visualization</text></a>
+<path d="M880.0,1674.0 C834.1,1674.0 834.1,364.5 788.2,364.5" fill="none" stroke="#6b4f2c" stroke-width="3" stroke-opacity="0.85"/>
+<path d="M591.8,364.5 C499.6,364.5 499.6,268.5 407.3,268.5" fill="none" stroke="#6b4f2c" stroke-width="1.8" stroke-opacity="0.7"/>
+<path d="M352.7,268.5 C299.3,268.5 299.3,247.5 246.0,247.5" fill="none" stroke="#6b4f2c" stroke-width="1" stroke-opacity="0.45"/>
+<a href="ds-eda-glossary.html#frame-the-question-and-the-target"><title>Frame the question and the target</title><circle cx="243.0" cy="247.5" r="2.6" fill="#6b4f2c"/><text class="c" x="236.0" y="251.8" text-anchor="end">Frame the question</text></a>
+<path d="M352.7,268.5 C299.3,268.5 299.3,268.5 246.0,268.5" fill="none" stroke="#6b4f2c" stroke-width="1" stroke-opacity="0.45"/>
+<a href="ds-eda-glossary.html#data-understanding-checklist"><title>Data-understanding checklist</title><circle cx="243.0" cy="268.5" r="2.6" fill="#6b4f2c"/><text class="c" x="236.0" y="272.8" text-anchor="end">Data checklist</text></a>
+<path d="M352.7,268.5 C299.3,268.5 299.3,289.5 246.0,289.5" fill="none" stroke="#6b4f2c" stroke-width="1" stroke-opacity="0.45"/>
+<a href="ds-eda-glossary.html#cleaning-workflow"><title>Cleaning workflow</title><circle cx="243.0" cy="289.5" r="2.6" fill="#6b4f2c"/><text class="c" x="236.0" y="293.8" text-anchor="end">Cleaning workflow</text></a>
+<rect x="352.7" y="257.5" width="54.6" height="22" rx="11" fill="#fff" stroke="#6b4f2c" stroke-width="1.6"/><text class="g" x="380.0" y="272.7" text-anchor="middle" fill="#6b4f2c">Plan</text>
+<path d="M591.8,364.5 C503.3,364.5 503.3,354.0 414.8,354.0" fill="none" stroke="#6b4f2c" stroke-width="1.8" stroke-opacity="0.7"/>
+<path d="M345.2,354.0 C295.6,354.0 295.6,322.5 246.0,322.5" fill="none" stroke="#6b4f2c" stroke-width="1" stroke-opacity="0.45"/>
+<a href="ds-eda-glossary.html#missing-data-decisions"><title>Missing-data decisions</title><circle cx="243.0" cy="322.5" r="2.6" fill="#6b4f2c"/><text class="c" x="236.0" y="326.8" text-anchor="end">Missing-data decisions</text></a>
+<path d="M345.2,354.0 C295.6,354.0 295.6,343.5 246.0,343.5" fill="none" stroke="#6b4f2c" stroke-width="1" stroke-opacity="0.45"/>
+<a href="ds-eda-glossary.html#outlier-decisions"><title>Outlier decisions</title><circle cx="243.0" cy="343.5" r="2.6" fill="#6b4f2c"/><text class="c" x="236.0" y="347.8" text-anchor="end">Outlier decisions</text></a>
+<path d="M345.2,354.0 C295.6,354.0 295.6,364.5 246.0,364.5" fill="none" stroke="#6b4f2c" stroke-width="1" stroke-opacity="0.45"/>
+<a href="ds-eda-glossary.html#leakage-check-known-at-prediction-time"><title>Leakage check: known at prediction time?</title><circle cx="243.0" cy="364.5" r="2.6" fill="#6b4f2c"/><text class="c" x="236.0" y="368.8" text-anchor="end">Leakage check</text></a>
+<path d="M345.2,354.0 C295.6,354.0 295.6,385.5 246.0,385.5" fill="none" stroke="#6b4f2c" stroke-width="1" stroke-opacity="0.45"/>
+<a href="ds-eda-glossary.html#eda-findings-that-shape-model-choice"><title>EDA findings that shape model choice</title><circle cx="243.0" cy="385.5" r="2.6" fill="#6b4f2c"/><text class="c" x="236.0" y="389.8" text-anchor="end">Model choice</text></a>
+<rect x="345.2" y="343.0" width="69.7" height="22" rx="11" fill="#fff" stroke="#6b4f2c" stroke-width="1.6"/><text class="g" x="380.0" y="358.2" text-anchor="middle" fill="#6b4f2c">Decide</text>
+<path d="M591.8,364.5 C504.3,364.5 504.3,460.5 416.8,460.5" fill="none" stroke="#6b4f2c" stroke-width="1.8" stroke-opacity="0.7"/>
+<path d="M343.2,460.5 C294.6,460.5 294.6,418.5 246.0,418.5" fill="none" stroke="#6b4f2c" stroke-width="1" stroke-opacity="0.45"/>
+<a href="ds-eda-glossary.html#feature-engineering-inside-pipelines"><title>Feature engineering inside pipelines</title><circle cx="243.0" cy="418.5" r="2.6" fill="#6b4f2c"/><text class="c" x="236.0" y="422.8" text-anchor="end">Pipelines</text></a>
+<path d="M343.2,460.5 C294.6,460.5 294.6,439.5 246.0,439.5" fill="none" stroke="#6b4f2c" stroke-width="1" stroke-opacity="0.45"/>
+<a href="ds-eda-glossary.html#eda-template-notebook"><title>EDA template notebook</title><circle cx="243.0" cy="439.5" r="2.6" fill="#6b4f2c"/><text class="c" x="236.0" y="443.8" text-anchor="end">EDA template</text></a>
+<path d="M343.2,460.5 C294.6,460.5 294.6,460.5 246.0,460.5" fill="none" stroke="#6b4f2c" stroke-width="1" stroke-opacity="0.45"/>
+<a href="ds-eda-glossary.html#capstone-common-mistakes-checklist"><title>Capstone common-mistakes checklist</title><circle cx="243.0" cy="460.5" r="2.6" fill="#6b4f2c"/><text class="c" x="236.0" y="464.8" text-anchor="end">Mistakes checklist</text></a>
+<path d="M343.2,460.5 C294.6,460.5 294.6,481.5 246.0,481.5" fill="none" stroke="#6b4f2c" stroke-width="1" stroke-opacity="0.45"/>
+<a href="ds-eda-glossary.html#library-version-changes-to-know"><title>Library version changes to know</title><circle cx="243.0" cy="481.5" r="2.6" fill="#6b4f2c"/><text class="c" x="236.0" y="485.8" text-anchor="end">Version changes</text></a>
+<path d="M343.2,460.5 C294.6,460.5 294.6,502.5 246.0,502.5" fill="none" stroke="#6b4f2c" stroke-width="1" stroke-opacity="0.45"/>
+<a href="ds-eda-glossary.html#reproducibility-habits"><title>Reproducibility habits</title><circle cx="243.0" cy="502.5" r="2.6" fill="#6b4f2c"/><text class="c" x="236.0" y="506.8" text-anchor="end">Reproducibility</text></a>
+<rect x="343.2" y="449.5" width="73.7" height="22" rx="11" fill="#fff" stroke="#6b4f2c" stroke-width="1.6"/><text class="g" x="380.0" y="464.7" text-anchor="middle" fill="#6b4f2c">Deliver</text>
+<a href="ds-eda-glossary.html#s00-capstone-playbook-the-data-stage"><title>Go to section: 00. Capstone playbook</title><rect x="591.8" y="349.5" width="196.4" height="30" rx="15" fill="#6b4f2c"/><text class="m" x="690.0" y="369.3" text-anchor="middle">00. Capstone playbook</text></a>
+<path d="M880.0,1674.0 C808.9,1674.0 808.9,751.5 737.7,751.5" fill="none" stroke="#5c6b16" stroke-width="3" stroke-opacity="0.85"/>
+<path d="M642.3,751.5 C549.5,751.5 549.5,597.0 456.8,597.0" fill="none" stroke="#5c6b16" stroke-width="1.8" stroke-opacity="0.7"/>
+<path d="M303.2,597.0 C274.6,597.0 274.6,565.5 246.0,565.5" fill="none" stroke="#5c6b16" stroke-width="1" stroke-opacity="0.45"/>
+<a href="ds-eda-glossary.html#web-api"><title>Web API</title><circle cx="243.0" cy="565.5" r="2.6" fill="#5c6b16"/><text class="c" x="236.0" y="569.8" text-anchor="end">Web API</text></a>
+<path d="M303.2,597.0 C274.6,597.0 274.6,586.5 246.0,586.5" fill="none" stroke="#5c6b16" stroke-width="1" stroke-opacity="0.45"/>
+<a href="ds-eda-glossary.html#request-and-response"><title>Request and response</title><circle cx="243.0" cy="586.5" r="2.6" fill="#5c6b16"/><text class="c" x="236.0" y="590.8" text-anchor="end">Request and response</text></a>
+<path d="M303.2,597.0 C274.6,597.0 274.6,607.5 246.0,607.5" fill="none" stroke="#5c6b16" stroke-width="1" stroke-opacity="0.45"/>
+<a href="ds-eda-glossary.html#http"><title>HTTP</title><circle cx="243.0" cy="607.5" r="2.6" fill="#5c6b16"/><text class="c" x="236.0" y="611.8" text-anchor="end">HTTP</text></a>
+<path d="M303.2,597.0 C274.6,597.0 274.6,628.5 246.0,628.5" fill="none" stroke="#5c6b16" stroke-width="1" stroke-opacity="0.45"/>
+<a href="ds-eda-glossary.html#http-methods-get-post-put-delete"><title>HTTP methods (GET, POST, PUT, DELETE)</title><circle cx="243.0" cy="628.5" r="2.6" fill="#5c6b16"/><text class="c" x="236.0" y="632.8" text-anchor="end">HTTP methods</text></a>
+<rect x="303.2" y="586.0" width="153.7" height="22" rx="11" fill="#fff" stroke="#5c6b16" stroke-width="1.6"/><text class="g" x="380.0" y="601.2" text-anchor="middle" fill="#5c6b16">How the web works</text>
+<path d="M642.3,751.5 C545.7,751.5 545.7,682.5 449.2,682.5" fill="none" stroke="#5c6b16" stroke-width="1.8" stroke-opacity="0.7"/>
+<path d="M310.8,682.5 C278.4,682.5 278.4,661.5 246.0,661.5" fill="none" stroke="#5c6b16" stroke-width="1" stroke-opacity="0.45"/>
+<a href="ds-eda-glossary.html#url-anatomy"><title>URL anatomy</title><circle cx="243.0" cy="661.5" r="2.6" fill="#5c6b16"/><text class="c" x="236.0" y="665.8" text-anchor="end">URL anatomy</text></a>
+<path d="M310.8,682.5 C278.4,682.5 278.4,682.5 246.0,682.5" fill="none" stroke="#5c6b16" stroke-width="1" stroke-opacity="0.45"/>
+<a href="ds-eda-glossary.html#endpoint"><title>Endpoint</title><circle cx="243.0" cy="682.5" r="2.6" fill="#5c6b16"/><text class="c" x="236.0" y="686.8" text-anchor="end">Endpoint</text></a>
+<path d="M310.8,682.5 C278.4,682.5 278.4,703.5 246.0,703.5" fill="none" stroke="#5c6b16" stroke-width="1" stroke-opacity="0.45"/>
+<a href="ds-eda-glossary.html#query-parameters"><title>Query parameters</title><circle cx="243.0" cy="703.5" r="2.6" fill="#5c6b16"/><text class="c" x="236.0" y="707.8" text-anchor="end">Query parameters</text></a>
+<rect x="310.8" y="671.5" width="138.5" height="22" rx="11" fill="#fff" stroke="#5c6b16" stroke-width="1.6"/><text class="g" x="380.0" y="686.7" text-anchor="middle" fill="#5c6b16">Building requests</text>
+<path d="M642.3,751.5 C548.4,751.5 548.4,778.5 454.5,778.5" fill="none" stroke="#5c6b16" stroke-width="1.8" stroke-opacity="0.7"/>
+<path d="M305.5,778.5 C275.8,778.5 275.8,736.5 246.0,736.5" fill="none" stroke="#5c6b16" stroke-width="1" stroke-opacity="0.45"/>
+<a href="ds-eda-glossary.html#status-code"><title>Status code</title><circle cx="243.0" cy="736.5" r="2.6" fill="#5c6b16"/><text class="c" x="236.0" y="740.8" text-anchor="end">Status code</text></a>
+<path d="M305.5,778.5 C275.8,778.5 275.8,757.5 246.0,757.5" fill="none" stroke="#5c6b16" stroke-width="1" stroke-opacity="0.45"/>
+<a href="ds-eda-glossary.html#common-http-status-codes"><title>Common HTTP status codes</title><circle cx="243.0" cy="757.5" r="2.6" fill="#5c6b16"/><text class="c" x="236.0" y="761.8" text-anchor="end">Common status codes</text></a>
+<path d="M305.5,778.5 C275.8,778.5 275.8,778.5 246.0,778.5" fill="none" stroke="#5c6b16" stroke-width="1" stroke-opacity="0.45"/>
+<a href="ds-eda-glossary.html#json"><title>JSON</title><circle cx="243.0" cy="778.5" r="2.6" fill="#5c6b16"/><text class="c" x="236.0" y="782.8" text-anchor="end">JSON</text></a>
+<path d="M305.5,778.5 C275.8,778.5 275.8,799.5 246.0,799.5" fill="none" stroke="#5c6b16" stroke-width="1" stroke-opacity="0.45"/>
+<a href="ds-eda-glossary.html#pd-json-normalize"><title>pd.json_normalize()</title><circle cx="243.0" cy="799.5" r="2.6" fill="#5c6b16"/><text class="c" x="236.0" y="803.8" text-anchor="end">pd.json_normalize()</text></a>
+<path d="M305.5,778.5 C275.8,778.5 275.8,820.5 246.0,820.5" fill="none" stroke="#5c6b16" stroke-width="1" stroke-opacity="0.45"/>
+<a href="ds-eda-glossary.html#timeouts-and-error-handling"><title>Timeouts and error handling</title><circle cx="243.0" cy="820.5" r="2.6" fill="#5c6b16"/><text class="c" x="236.0" y="824.8" text-anchor="end">Error handling</text></a>
+<rect x="305.5" y="767.5" width="149.0" height="22" rx="11" fill="#fff" stroke="#5c6b16" stroke-width="1.6"/><text class="g" x="380.0" y="782.7" text-anchor="middle" fill="#5c6b16">Reading responses</text>
+<path d="M642.3,751.5 C543.0,751.5 543.0,906.0 443.7,906.0" fill="none" stroke="#5c6b16" stroke-width="1.8" stroke-opacity="0.7"/>
+<path d="M316.3,906.0 C281.2,906.0 281.2,853.5 246.0,853.5" fill="none" stroke="#5c6b16" stroke-width="1" stroke-opacity="0.45"/>
+<a href="ds-eda-glossary.html#api-key"><title>API key</title><circle cx="243.0" cy="853.5" r="2.6" fill="#5c6b16"/><text class="c" x="236.0" y="857.8" text-anchor="end">API key</text></a>
+<path d="M316.3,906.0 C281.2,906.0 281.2,874.5 246.0,874.5" fill="none" stroke="#5c6b16" stroke-width="1" stroke-opacity="0.45"/>
+<a href="ds-eda-glossary.html#environment-variables-and-env-files"><title>Environment variables and .env files</title><circle cx="243.0" cy="874.5" r="2.6" fill="#5c6b16"/><text class="c" x="236.0" y="878.8" text-anchor="end">Environment variables</text></a>
+<path d="M316.3,906.0 C281.2,906.0 281.2,895.5 246.0,895.5" fill="none" stroke="#5c6b16" stroke-width="1" stroke-opacity="0.45"/>
+<a href="ds-eda-glossary.html#rate-limit"><title>Rate limit</title><circle cx="243.0" cy="895.5" r="2.6" fill="#5c6b16"/><text class="c" x="236.0" y="899.8" text-anchor="end">Rate limit</text></a>
+<path d="M316.3,906.0 C281.2,906.0 281.2,916.5 246.0,916.5" fill="none" stroke="#5c6b16" stroke-width="1" stroke-opacity="0.45"/>
+<a href="ds-eda-glossary.html#pagination"><title>Pagination</title><circle cx="243.0" cy="916.5" r="2.6" fill="#5c6b16"/><text class="c" x="236.0" y="920.8" text-anchor="end">Pagination</text></a>
+<path d="M316.3,906.0 C281.2,906.0 281.2,937.5 246.0,937.5" fill="none" stroke="#5c6b16" stroke-width="1" stroke-opacity="0.45"/>
+<a href="ds-eda-glossary.html#caching-api-responses"><title>Caching API responses</title><circle cx="243.0" cy="937.5" r="2.6" fill="#5c6b16"/><text class="c" x="236.0" y="941.8" text-anchor="end">Caching API responses</text></a>
+<path d="M316.3,906.0 C281.2,906.0 281.2,958.5 246.0,958.5" fill="none" stroke="#5c6b16" stroke-width="1" stroke-opacity="0.45"/>
+<a href="ds-eda-glossary.html#api-documentation"><title>API documentation</title><circle cx="243.0" cy="958.5" r="2.6" fill="#5c6b16"/><text class="c" x="236.0" y="962.8" text-anchor="end">API documentation</text></a>
+<rect x="316.3" y="895.0" width="127.3" height="22" rx="11" fill="#fff" stroke="#5c6b16" stroke-width="1.6"/><text class="g" x="380.0" y="910.2" text-anchor="middle" fill="#5c6b16">Using APIs well</text>
+<a href="ds-eda-glossary.html#s11-apis-and-web-data"><title>Go to section: 11. APIs</title><rect x="642.3" y="736.5" width="95.5" height="30" rx="15" fill="#5c6b16"/><text class="m" x="690.0" y="756.3" text-anchor="middle">11. APIs</text></a>
+<path d="M880.0,1674.0 C837.4,1674.0 837.4,1233.8 794.9,1233.8" fill="none" stroke="#a44a17" stroke-width="3" stroke-opacity="0.85"/>
+<path d="M585.1,1233.8 C503.7,1233.8 503.7,1074.0 422.4,1074.0" fill="none" stroke="#a44a17" stroke-width="1.8" stroke-opacity="0.7"/>
+<path d="M337.6,1074.0 C291.8,1074.0 291.8,1021.5 246.0,1021.5" fill="none" stroke="#a44a17" stroke-width="1" stroke-opacity="0.45"/>
+<a href="ds-eda-glossary.html#one-hot-encoding"><title>One-hot encoding</title><circle cx="243.0" cy="1021.5" r="2.6" fill="#a44a17"/><text class="c" x="236.0" y="1025.8" text-anchor="end">One-hot encoding</text></a>
+<path d="M337.6,1074.0 C291.8,1074.0 291.8,1042.5 246.0,1042.5" fill="none" stroke="#a44a17" stroke-width="1" stroke-opacity="0.45"/>
+<a href="ds-eda-glossary.html#onehotencoder-options"><title>OneHotEncoder options</title><circle cx="243.0" cy="1042.5" r="2.6" fill="#a44a17"/><text class="c" x="236.0" y="1046.8" text-anchor="end">OneHotEncoder options</text></a>
+<path d="M337.6,1074.0 C291.8,1074.0 291.8,1063.5 246.0,1063.5" fill="none" stroke="#a44a17" stroke-width="1" stroke-opacity="0.45"/>
+<a href="ds-eda-glossary.html#label-encoding"><title>Label encoding</title><circle cx="243.0" cy="1063.5" r="2.6" fill="#a44a17"/><text class="c" x="236.0" y="1067.8" text-anchor="end">Label encoding</text></a>
+<path d="M337.6,1074.0 C291.8,1074.0 291.8,1084.5 246.0,1084.5" fill="none" stroke="#a44a17" stroke-width="1" stroke-opacity="0.45"/>
+<a href="ds-eda-glossary.html#ordinalencoder"><title>OrdinalEncoder</title><circle cx="243.0" cy="1084.5" r="2.6" fill="#a44a17"/><text class="c" x="236.0" y="1088.8" text-anchor="end">OrdinalEncoder</text></a>
+<path d="M337.6,1074.0 C291.8,1074.0 291.8,1105.5 246.0,1105.5" fill="none" stroke="#a44a17" stroke-width="1" stroke-opacity="0.45"/>
+<a href="ds-eda-glossary.html#target-encoding"><title>Target encoding</title><circle cx="243.0" cy="1105.5" r="2.6" fill="#a44a17"/><text class="c" x="236.0" y="1109.8" text-anchor="end">Target encoding</text></a>
+<path d="M337.6,1074.0 C291.8,1074.0 291.8,1126.5 246.0,1126.5" fill="none" stroke="#a44a17" stroke-width="1" stroke-opacity="0.45"/>
+<a href="ds-eda-glossary.html#high-cardinality-strategies"><title>High-cardinality strategies</title><circle cx="243.0" cy="1126.5" r="2.6" fill="#a44a17"/><text class="c" x="236.0" y="1130.8" text-anchor="end">High-cardinality strategies</text></a>
+<rect x="337.6" y="1063.0" width="84.7" height="22" rx="11" fill="#fff" stroke="#a44a17" stroke-width="1.6"/><text class="g" x="380.0" y="1078.2" text-anchor="middle" fill="#a44a17">Encoding</text>
+<path d="M585.1,1233.8 C517.2,1233.8 517.2,1191.0 449.2,1191.0" fill="none" stroke="#a44a17" stroke-width="1.8" stroke-opacity="0.7"/>
+<path d="M310.8,1191.0 C278.4,1191.0 278.4,1159.5 246.0,1159.5" fill="none" stroke="#a44a17" stroke-width="1" stroke-opacity="0.45"/>
+<a href="ds-eda-glossary.html#equal-width-binning-pd-cut"><title>Equal-width binning (pd.cut)</title><circle cx="243.0" cy="1159.5" r="2.6" fill="#a44a17"/><text class="c" x="236.0" y="1163.8" text-anchor="end">Equal-width (pd.cut)</text></a>
+<path d="M310.8,1191.0 C278.4,1191.0 278.4,1180.5 246.0,1180.5" fill="none" stroke="#a44a17" stroke-width="1" stroke-opacity="0.45"/>
+<a href="ds-eda-glossary.html#equal-frequency-binning-pd-qcut"><title>Equal-frequency binning (pd.qcut)</title><circle cx="243.0" cy="1180.5" r="2.6" fill="#a44a17"/><text class="c" x="236.0" y="1184.8" text-anchor="end">Equal-frequency (pd.qcut)</text></a>
+<path d="M310.8,1191.0 C278.4,1191.0 278.4,1201.5 246.0,1201.5" fill="none" stroke="#a44a17" stroke-width="1" stroke-opacity="0.45"/>
+<a href="ds-eda-glossary.html#kbinsdiscretizer"><title>KBinsDiscretizer</title><circle cx="243.0" cy="1201.5" r="2.6" fill="#a44a17"/><text class="c" x="236.0" y="1205.8" text-anchor="end">KBinsDiscretizer</text></a>
+<path d="M310.8,1191.0 C278.4,1191.0 278.4,1222.5 246.0,1222.5" fill="none" stroke="#a44a17" stroke-width="1" stroke-opacity="0.45"/>
+<a href="ds-eda-glossary.html#features-from-dates"><title>Features from dates</title><circle cx="243.0" cy="1222.5" r="2.6" fill="#a44a17"/><text class="c" x="236.0" y="1226.8" text-anchor="end">Features from dates</text></a>
+<rect x="310.8" y="1180.0" width="138.5" height="22" rx="11" fill="#fff" stroke="#a44a17" stroke-width="1.6"/><text class="g" x="380.0" y="1195.2" text-anchor="middle" fill="#a44a17">Binning and dates</text>
+<path d="M585.1,1233.8 C511.4,1233.8 511.4,1287.0 437.6,1287.0" fill="none" stroke="#a44a17" stroke-width="1.8" stroke-opacity="0.7"/>
+<path d="M322.4,1287.0 C284.2,1287.0 284.2,1255.5 246.0,1255.5" fill="none" stroke="#a44a17" stroke-width="1" stroke-opacity="0.45"/>
+<a href="ds-eda-glossary.html#standardscaler-minmaxscaler-robustscaler"><title>StandardScaler, MinMaxScaler, RobustScaler</title><circle cx="243.0" cy="1255.5" r="2.6" fill="#a44a17"/><text class="c" x="236.0" y="1259.8" text-anchor="end">Scalers</text></a>
+<path d="M322.4,1287.0 C284.2,1287.0 284.2,1276.5 246.0,1276.5" fill="none" stroke="#a44a17" stroke-width="1" stroke-opacity="0.45"/>
+<a href="ds-eda-glossary.html#log-transformation"><title>Log transformation</title><circle cx="243.0" cy="1276.5" r="2.6" fill="#a44a17"/><text class="c" x="236.0" y="1280.8" text-anchor="end">Log transformation</text></a>
+<path d="M322.4,1287.0 C284.2,1287.0 284.2,1297.5 246.0,1297.5" fill="none" stroke="#a44a17" stroke-width="1" stroke-opacity="0.45"/>
+<a href="ds-eda-glossary.html#power-transformation-box-cox-yeo-johnson"><title>Power transformation (Box-Cox, Yeo-Johnson)</title><circle cx="243.0" cy="1297.5" r="2.6" fill="#a44a17"/><text class="c" x="236.0" y="1301.8" text-anchor="end">Power transformation</text></a>
+<path d="M322.4,1287.0 C284.2,1287.0 284.2,1318.5 246.0,1318.5" fill="none" stroke="#a44a17" stroke-width="1" stroke-opacity="0.45"/>
+<a href="ds-eda-glossary.html#functiontransformer"><title>FunctionTransformer</title><circle cx="243.0" cy="1318.5" r="2.6" fill="#a44a17"/><text class="c" x="236.0" y="1322.8" text-anchor="end">FunctionTransformer</text></a>
+<rect x="322.4" y="1276.0" width="115.2" height="22" rx="11" fill="#fff" stroke="#a44a17" stroke-width="1.6"/><text class="g" x="380.0" y="1291.2" text-anchor="middle" fill="#a44a17">Transforming</text>
+<path d="M585.1,1233.8 C503.9,1233.8 503.9,1393.5 422.6,1393.5" fill="none" stroke="#a44a17" stroke-width="1.8" stroke-opacity="0.7"/>
+<path d="M337.4,1393.5 C291.7,1393.5 291.7,1351.5 246.0,1351.5" fill="none" stroke="#a44a17" stroke-width="1" stroke-opacity="0.45"/>
+<a href="ds-eda-glossary.html#pipeline"><title>Pipeline</title><circle cx="243.0" cy="1351.5" r="2.6" fill="#a44a17"/><text class="c" x="236.0" y="1355.8" text-anchor="end">Pipeline</text></a>
+<path d="M337.4,1393.5 C291.7,1393.5 291.7,1372.5 246.0,1372.5" fill="none" stroke="#a44a17" stroke-width="1" stroke-opacity="0.45"/>
+<a href="ds-eda-glossary.html#columntransformer"><title>ColumnTransformer</title><circle cx="243.0" cy="1372.5" r="2.6" fill="#a44a17"/><text class="c" x="236.0" y="1376.8" text-anchor="end">ColumnTransformer</text></a>
+<path d="M337.4,1393.5 C291.7,1393.5 291.7,1393.5 246.0,1393.5" fill="none" stroke="#a44a17" stroke-width="1" stroke-opacity="0.45"/>
+<a href="ds-eda-glossary.html#get-feature-names-out-and-set-output"><title>get_feature_names_out() and set_output()</title><circle cx="243.0" cy="1393.5" r="2.6" fill="#a44a17"/><text class="c" x="236.0" y="1397.8" text-anchor="end">Feature names</text></a>
+<path d="M337.4,1393.5 C291.7,1393.5 291.7,1414.5 246.0,1414.5" fill="none" stroke="#a44a17" stroke-width="1" stroke-opacity="0.45"/>
+<a href="ds-eda-glossary.html#data-leakage"><title>Data leakage</title><circle cx="243.0" cy="1414.5" r="2.6" fill="#a44a17"/><text class="c" x="236.0" y="1418.8" text-anchor="end">Data leakage</text></a>
+<path d="M337.4,1393.5 C291.7,1393.5 291.7,1435.5 246.0,1435.5" fill="none" stroke="#a44a17" stroke-width="1" stroke-opacity="0.45"/>
+<a href="ds-eda-glossary.html#saving-a-fitted-pipeline-joblib"><title>Saving a fitted pipeline (joblib)</title><circle cx="243.0" cy="1435.5" r="2.6" fill="#a44a17"/><text class="c" x="236.0" y="1439.8" text-anchor="end">Saving a pipeline</text></a>
+<rect x="337.4" y="1382.5" width="85.3" height="22" rx="11" fill="#fff" stroke="#a44a17" stroke-width="1.6"/><text class="g" x="380.0" y="1397.7" text-anchor="middle" fill="#a44a17">Pipelines</text>
+<a href="ds-eda-glossary.html#s10-feature-engineering"><title>Go to section: 10. Feature engineering</title><rect x="585.1" y="1218.8" width="209.7" height="30" rx="15" fill="#a44a17"/><text class="m" x="690.0" y="1238.5" text-anchor="middle">10. Feature engineering</text></a>
+<path d="M880.0,1674.0 C828.9,1674.0 828.9,1769.2 777.7,1769.2" fill="none" stroke="#2e6b88" stroke-width="3" stroke-opacity="0.85"/>
+<path d="M602.3,1769.2 C517.1,1769.2 517.1,1551.0 431.9,1551.0" fill="none" stroke="#2e6b88" stroke-width="1.8" stroke-opacity="0.7"/>
+<path d="M328.1,1551.0 C287.0,1551.0 287.0,1498.5 246.0,1498.5" fill="none" stroke="#2e6b88" stroke-width="1" stroke-opacity="0.45"/>
+<a href="ds-eda-glossary.html#random-variable"><title>Random variable</title><circle cx="243.0" cy="1498.5" r="2.6" fill="#2e6b88"/><text class="c" x="236.0" y="1502.8" text-anchor="end">Random variable</text></a>
+<path d="M328.1,1551.0 C287.0,1551.0 287.0,1519.5 246.0,1519.5" fill="none" stroke="#2e6b88" stroke-width="1" stroke-opacity="0.45"/>
+<a href="ds-eda-glossary.html#target-dependent-variable"><title>Target (dependent variable)</title><circle cx="243.0" cy="1519.5" r="2.6" fill="#2e6b88"/><text class="c" x="236.0" y="1523.8" text-anchor="end">Target</text></a>
+<path d="M328.1,1551.0 C287.0,1551.0 287.0,1540.5 246.0,1540.5" fill="none" stroke="#2e6b88" stroke-width="1" stroke-opacity="0.45"/>
+<a href="ds-eda-glossary.html#data-quality-assessment"><title>Data quality assessment</title><circle cx="243.0" cy="1540.5" r="2.6" fill="#2e6b88"/><text class="c" x="236.0" y="1544.8" text-anchor="end">Data quality assessment</text></a>
+<path d="M328.1,1551.0 C287.0,1551.0 287.0,1561.5 246.0,1561.5" fill="none" stroke="#2e6b88" stroke-width="1" stroke-opacity="0.45"/>
+<a href="ds-eda-glossary.html#classifying-variables-in-code"><title>Classifying variables in code</title><circle cx="243.0" cy="1561.5" r="2.6" fill="#2e6b88"/><text class="c" x="236.0" y="1565.8" text-anchor="end">Classifying variables</text></a>
+<path d="M328.1,1551.0 C287.0,1551.0 287.0,1582.5 246.0,1582.5" fill="none" stroke="#2e6b88" stroke-width="1" stroke-opacity="0.45"/>
+<a href="ds-eda-glossary.html#capped-values"><title>Capped values</title><circle cx="243.0" cy="1582.5" r="2.6" fill="#2e6b88"/><text class="c" x="236.0" y="1586.8" text-anchor="end">Capped values</text></a>
+<path d="M328.1,1551.0 C287.0,1551.0 287.0,1603.5 246.0,1603.5" fill="none" stroke="#2e6b88" stroke-width="1" stroke-opacity="0.45"/>
+<a href="ds-eda-glossary.html#duplicate-rows-and-leakage"><title>Duplicate rows and leakage</title><circle cx="243.0" cy="1603.5" r="2.6" fill="#2e6b88"/><text class="c" x="236.0" y="1607.8" text-anchor="end">Duplicates and leakage</text></a>
+<rect x="328.1" y="1540.0" width="103.8" height="22" rx="11" fill="#fff" stroke="#2e6b88" stroke-width="1.6"/><text class="g" x="380.0" y="1555.2" text-anchor="middle" fill="#2e6b88">Foundations</text>
+<path d="M602.3,1769.2 C516.2,1769.2 516.2,1678.5 430.2,1678.5" fill="none" stroke="#2e6b88" stroke-width="1.8" stroke-opacity="0.7"/>
+<path d="M329.8,1678.5 C287.9,1678.5 287.9,1636.5 246.0,1636.5" fill="none" stroke="#2e6b88" stroke-width="1" stroke-opacity="0.45"/>
+<a href="ds-eda-glossary.html#pearson-correlation-coefficient-r"><title>Pearson correlation coefficient (r)</title><circle cx="243.0" cy="1636.5" r="2.6" fill="#2e6b88"/><text class="c" x="236.0" y="1640.8" text-anchor="end">Pearson&#x27;s r</text></a>
+<path d="M329.8,1678.5 C287.9,1678.5 287.9,1657.5 246.0,1657.5" fill="none" stroke="#2e6b88" stroke-width="1" stroke-opacity="0.45"/>
+<a href="ds-eda-glossary.html#spearman-rank-correlation"><title>Spearman rank correlation</title><circle cx="243.0" cy="1657.5" r="2.6" fill="#2e6b88"/><text class="c" x="236.0" y="1661.8" text-anchor="end">Spearman rank correlation</text></a>
+<path d="M329.8,1678.5 C287.9,1678.5 287.9,1678.5 246.0,1678.5" fill="none" stroke="#2e6b88" stroke-width="1" stroke-opacity="0.45"/>
+<a href="ds-eda-glossary.html#correlation-with-the-target"><title>Correlation with the target</title><circle cx="243.0" cy="1678.5" r="2.6" fill="#2e6b88"/><text class="c" x="236.0" y="1682.8" text-anchor="end">Correlation with the target</text></a>
+<path d="M329.8,1678.5 C287.9,1678.5 287.9,1699.5 246.0,1699.5" fill="none" stroke="#2e6b88" stroke-width="1" stroke-opacity="0.45"/>
+<a href="ds-eda-glossary.html#anscombe-s-quartet"><title>Anscombe&#x27;s quartet</title><circle cx="243.0" cy="1699.5" r="2.6" fill="#2e6b88"/><text class="c" x="236.0" y="1703.8" text-anchor="end">Anscombe&#x27;s quartet</text></a>
+<path d="M329.8,1678.5 C287.9,1678.5 287.9,1720.5 246.0,1720.5" fill="none" stroke="#2e6b88" stroke-width="1" stroke-opacity="0.45"/>
+<a href="ds-eda-glossary.html#nonlinear-relationships-and-correlation"><title>Nonlinear relationships and correlation</title><circle cx="243.0" cy="1720.5" r="2.6" fill="#2e6b88"/><text class="c" x="236.0" y="1724.8" text-anchor="end">Nonlinear relationships</text></a>
+<rect x="329.8" y="1667.5" width="100.3" height="22" rx="11" fill="#fff" stroke="#2e6b88" stroke-width="1.6"/><text class="g" x="380.0" y="1682.7" text-anchor="middle" fill="#2e6b88">Correlation</text>
+<path d="M602.3,1769.2 C536.0,1769.2 536.0,1795.5 469.8,1795.5" fill="none" stroke="#2e6b88" stroke-width="1.8" stroke-opacity="0.7"/>
+<path d="M290.2,1795.5 C268.1,1795.5 268.1,1753.5 246.0,1753.5" fill="none" stroke="#2e6b88" stroke-width="1" stroke-opacity="0.45"/>
+<a href="ds-eda-glossary.html#multicollinearity"><title>Multicollinearity</title><circle cx="243.0" cy="1753.5" r="2.6" fill="#2e6b88"/><text class="c" x="236.0" y="1757.8" text-anchor="end">Multicollinearity</text></a>
+<path d="M290.2,1795.5 C268.1,1795.5 268.1,1774.5 246.0,1774.5" fill="none" stroke="#2e6b88" stroke-width="1" stroke-opacity="0.45"/>
+<a href="ds-eda-glossary.html#variance-inflation-factor-vif"><title>Variance inflation factor (VIF)</title><circle cx="243.0" cy="1774.5" r="2.6" fill="#2e6b88"/><text class="c" x="236.0" y="1778.8" text-anchor="end">VIF</text></a>
+<path d="M290.2,1795.5 C268.1,1795.5 268.1,1795.5 246.0,1795.5" fill="none" stroke="#2e6b88" stroke-width="1" stroke-opacity="0.45"/>
+<a href="ds-eda-glossary.html#z-score-standardization"><title>Z-score standardization</title><circle cx="243.0" cy="1795.5" r="2.6" fill="#2e6b88"/><text class="c" x="236.0" y="1799.8" text-anchor="end">Z-score standardization</text></a>
+<path d="M290.2,1795.5 C268.1,1795.5 268.1,1816.5 246.0,1816.5" fill="none" stroke="#2e6b88" stroke-width="1" stroke-opacity="0.45"/>
+<a href="ds-eda-glossary.html#robust-scaling"><title>Robust scaling</title><circle cx="243.0" cy="1816.5" r="2.6" fill="#2e6b88"/><text class="c" x="236.0" y="1820.8" text-anchor="end">Robust scaling</text></a>
+<path d="M290.2,1795.5 C268.1,1795.5 268.1,1837.5 246.0,1837.5" fill="none" stroke="#2e6b88" stroke-width="1" stroke-opacity="0.45"/>
+<a href="ds-eda-glossary.html#scaling-doesn-t-change-a-distribution-s-shape"><title>Scaling doesn&#x27;t change a distribution&#x27;s shape</title><circle cx="243.0" cy="1837.5" r="2.6" fill="#2e6b88"/><text class="c" x="236.0" y="1841.8" text-anchor="end">Scaling keeps shape</text></a>
+<rect x="290.2" y="1784.5" width="179.6" height="22" rx="11" fill="#fff" stroke="#2e6b88" stroke-width="1.6"/><text class="g" x="380.0" y="1799.7" text-anchor="middle" fill="#2e6b88">Redundancy and scaling</text>
+<path d="M602.3,1769.2 C513.3,1769.2 513.3,1902.0 424.4,1902.0" fill="none" stroke="#2e6b88" stroke-width="1.8" stroke-opacity="0.7"/>
+<path d="M335.6,1902.0 C290.8,1902.0 290.8,1870.5 246.0,1870.5" fill="none" stroke="#2e6b88" stroke-width="1" stroke-opacity="0.45"/>
+<a href="ds-eda-glossary.html#correlation-does-not-imply-causation"><title>Correlation does not imply causation</title><circle cx="243.0" cy="1870.5" r="2.6" fill="#2e6b88"/><text class="c" x="236.0" y="1874.8" text-anchor="end">Correlation ≠ causation</text></a>
+<path d="M335.6,1902.0 C290.8,1902.0 290.8,1891.5 246.0,1891.5" fill="none" stroke="#2e6b88" stroke-width="1" stroke-opacity="0.45"/>
+<a href="ds-eda-glossary.html#confounding-variable"><title>Confounding variable</title><circle cx="243.0" cy="1891.5" r="2.6" fill="#2e6b88"/><text class="c" x="236.0" y="1895.8" text-anchor="end">Confounding variable</text></a>
+<path d="M335.6,1902.0 C290.8,1902.0 290.8,1912.5 246.0,1912.5" fill="none" stroke="#2e6b88" stroke-width="1" stroke-opacity="0.45"/>
+<a href="ds-eda-glossary.html#reverse-causality"><title>Reverse causality</title><circle cx="243.0" cy="1912.5" r="2.6" fill="#2e6b88"/><text class="c" x="236.0" y="1916.8" text-anchor="end">Reverse causality</text></a>
+<path d="M335.6,1902.0 C290.8,1902.0 290.8,1933.5 246.0,1933.5" fill="none" stroke="#2e6b88" stroke-width="1" stroke-opacity="0.45"/>
+<a href="ds-eda-glossary.html#spurious-correlation"><title>Spurious correlation</title><circle cx="243.0" cy="1933.5" r="2.6" fill="#2e6b88"/><text class="c" x="236.0" y="1937.8" text-anchor="end">Spurious correlation</text></a>
+<rect x="335.6" y="1891.0" width="88.7" height="22" rx="11" fill="#fff" stroke="#2e6b88" stroke-width="1.6"/><text class="g" x="380.0" y="1906.2" text-anchor="middle" fill="#2e6b88">Causation</text>
+<path d="M602.3,1769.2 C523.8,1769.2 523.8,1987.5 445.4,1987.5" fill="none" stroke="#2e6b88" stroke-width="1.8" stroke-opacity="0.7"/>
+<path d="M314.6,1987.5 C280.3,1987.5 280.3,1966.5 246.0,1966.5" fill="none" stroke="#2e6b88" stroke-width="1" stroke-opacity="0.45"/>
+<a href="ds-eda-glossary.html#train-test-split"><title>train_test_split()</title><circle cx="243.0" cy="1966.5" r="2.6" fill="#2e6b88"/><text class="c" x="236.0" y="1970.8" text-anchor="end">train_test_split()</text></a>
+<path d="M314.6,1987.5 C280.3,1987.5 280.3,1987.5 246.0,1987.5" fill="none" stroke="#2e6b88" stroke-width="1" stroke-opacity="0.45"/>
+<a href="ds-eda-glossary.html#fit-predict"><title>fit / predict</title><circle cx="243.0" cy="1987.5" r="2.6" fill="#2e6b88"/><text class="c" x="236.0" y="1991.8" text-anchor="end">fit / predict</text></a>
+<path d="M314.6,1987.5 C280.3,1987.5 280.3,2008.5 246.0,2008.5" fill="none" stroke="#2e6b88" stroke-width="1" stroke-opacity="0.45"/>
+<a href="ds-eda-glossary.html#evaluation-metrics-r-mse-rmse-mae-accuracy"><title>Evaluation metrics (R², MSE, RMSE, MAE, accuracy)</title><circle cx="243.0" cy="2008.5" r="2.6" fill="#2e6b88"/><text class="c" x="236.0" y="2012.8" text-anchor="end">Evaluation metrics</text></a>
+<rect x="314.6" y="1976.5" width="130.8" height="22" rx="11" fill="#fff" stroke="#2e6b88" stroke-width="1.6"/><text class="g" x="380.0" y="1991.7" text-anchor="middle" fill="#2e6b88">Modeling basics</text>
+<a href="ds-eda-glossary.html#s9-eda-for-modeling"><title>Go to section: 9. EDA for modeling</title><rect x="602.3" y="1754.2" width="175.4" height="30" rx="15" fill="#2e6b88"/><text class="m" x="690.0" y="1774.0" text-anchor="middle">9. EDA for modeling</text></a>
+<path d="M880.0,1674.0 C821.2,1674.0 821.2,2257.5 762.3,2257.5" fill="none" stroke="#3f6f3a" stroke-width="3" stroke-opacity="0.85"/>
+<path d="M617.7,2257.5 C531.8,2257.5 531.8,2103.0 445.9,2103.0" fill="none" stroke="#3f6f3a" stroke-width="1.8" stroke-opacity="0.7"/>
+<path d="M314.1,2103.0 C280.1,2103.0 280.1,2071.5 246.0,2071.5" fill="none" stroke="#3f6f3a" stroke-width="1" stroke-opacity="0.45"/>
+<a href="ds-eda-glossary.html#mcar-missing-completely-at-random"><title>MCAR (Missing Completely At Random)</title><circle cx="243.0" cy="2071.5" r="2.6" fill="#3f6f3a"/><text class="c" x="236.0" y="2075.8" text-anchor="end">MCAR</text></a>
+<path d="M314.1,2103.0 C280.1,2103.0 280.1,2092.5 246.0,2092.5" fill="none" stroke="#3f6f3a" stroke-width="1" stroke-opacity="0.45"/>
+<a href="ds-eda-glossary.html#mar-missing-at-random"><title>MAR (Missing At Random)</title><circle cx="243.0" cy="2092.5" r="2.6" fill="#3f6f3a"/><text class="c" x="236.0" y="2096.8" text-anchor="end">MAR</text></a>
+<path d="M314.1,2103.0 C280.1,2103.0 280.1,2113.5 246.0,2113.5" fill="none" stroke="#3f6f3a" stroke-width="1" stroke-opacity="0.45"/>
+<a href="ds-eda-glossary.html#mnar-missing-not-at-random"><title>MNAR (Missing Not At Random)</title><circle cx="243.0" cy="2113.5" r="2.6" fill="#3f6f3a"/><text class="c" x="236.0" y="2117.8" text-anchor="end">MNAR</text></a>
+<path d="M314.1,2103.0 C280.1,2103.0 280.1,2134.5 246.0,2134.5" fill="none" stroke="#3f6f3a" stroke-width="1" stroke-opacity="0.45"/>
+<a href="ds-eda-glossary.html#classifying-missingness-the-survey-exercise"><title>Classifying missingness: the survey exercise</title><circle cx="243.0" cy="2134.5" r="2.6" fill="#3f6f3a"/><text class="c" x="236.0" y="2138.8" text-anchor="end">Survey exercise</text></a>
+<rect x="314.1" y="2092.0" width="131.8" height="22" rx="11" fill="#fff" stroke="#3f6f3a" stroke-width="1.6"/><text class="g" x="380.0" y="2107.2" text-anchor="middle" fill="#3f6f3a">Why it&#x27;s missing</text>
+<path d="M617.7,2257.5 C515.4,2257.5 515.4,2209.5 413.1,2209.5" fill="none" stroke="#3f6f3a" stroke-width="1.8" stroke-opacity="0.7"/>
+<path d="M346.9,2209.5 C296.5,2209.5 296.5,2167.5 246.0,2167.5" fill="none" stroke="#3f6f3a" stroke-width="1" stroke-opacity="0.45"/>
+<a href="ds-eda-glossary.html#isnull-isna"><title>.isnull() / .isna()</title><circle cx="243.0" cy="2167.5" r="2.6" fill="#3f6f3a"/><text class="c" x="236.0" y="2171.8" text-anchor="end">.isnull() / .isna()</text></a>
+<path d="M346.9,2209.5 C296.5,2209.5 296.5,2188.5 246.0,2188.5" fill="none" stroke="#3f6f3a" stroke-width="1" stroke-opacity="0.45"/>
+<a href="ds-eda-glossary.html#missingness-table"><title>Missingness table</title><circle cx="243.0" cy="2188.5" r="2.6" fill="#3f6f3a"/><text class="c" x="236.0" y="2192.8" text-anchor="end">Missingness table</text></a>
+<path d="M346.9,2209.5 C296.5,2209.5 296.5,2209.5 246.0,2209.5" fill="none" stroke="#3f6f3a" stroke-width="1" stroke-opacity="0.45"/>
+<a href="ds-eda-glossary.html#missingness-heatmap"><title>Missingness heatmap</title><circle cx="243.0" cy="2209.5" r="2.6" fill="#3f6f3a"/><text class="c" x="236.0" y="2213.8" text-anchor="end">Missingness heatmap</text></a>
+<path d="M346.9,2209.5 C296.5,2209.5 296.5,2230.5 246.0,2230.5" fill="none" stroke="#3f6f3a" stroke-width="1" stroke-opacity="0.45"/>
+<a href="ds-eda-glossary.html#placeholder-values-for-missing-data"><title>Placeholder values for missing data</title><circle cx="243.0" cy="2230.5" r="2.6" fill="#3f6f3a"/><text class="c" x="236.0" y="2234.8" text-anchor="end">Placeholder values</text></a>
+<path d="M346.9,2209.5 C296.5,2209.5 296.5,2251.5 246.0,2251.5" fill="none" stroke="#3f6f3a" stroke-width="1" stroke-opacity="0.45"/>
+<a href="ds-eda-glossary.html#missingno"><title>missingno</title><circle cx="243.0" cy="2251.5" r="2.6" fill="#3f6f3a"/><text class="c" x="236.0" y="2255.8" text-anchor="end">missingno</text></a>
+<rect x="346.9" y="2198.5" width="66.2" height="22" rx="11" fill="#fff" stroke="#3f6f3a" stroke-width="1.6"/><text class="g" x="380.0" y="2213.7" text-anchor="middle" fill="#3f6f3a">Detect</text>
+<path d="M617.7,2257.5 C515.4,2257.5 515.4,2305.5 413.1,2305.5" fill="none" stroke="#3f6f3a" stroke-width="1.8" stroke-opacity="0.7"/>
+<path d="M346.9,2305.5 C296.5,2305.5 296.5,2284.5 246.0,2284.5" fill="none" stroke="#3f6f3a" stroke-width="1" stroke-opacity="0.45"/>
+<a href="ds-eda-glossary.html#listwise-deletion-complete-case-analysis"><title>Listwise deletion (complete-case analysis)</title><circle cx="243.0" cy="2284.5" r="2.6" fill="#3f6f3a"/><text class="c" x="236.0" y="2288.8" text-anchor="end">Listwise deletion</text></a>
+<path d="M346.9,2305.5 C296.5,2305.5 296.5,2305.5 246.0,2305.5" fill="none" stroke="#3f6f3a" stroke-width="1" stroke-opacity="0.45"/>
+<a href="ds-eda-glossary.html#pairwise-deletion"><title>Pairwise deletion</title><circle cx="243.0" cy="2305.5" r="2.6" fill="#3f6f3a"/><text class="c" x="236.0" y="2309.8" text-anchor="end">Pairwise deletion</text></a>
+<path d="M346.9,2305.5 C296.5,2305.5 296.5,2326.5 246.0,2326.5" fill="none" stroke="#3f6f3a" stroke-width="1" stroke-opacity="0.45"/>
+<a href="ds-eda-glossary.html#column-deletion"><title>Column deletion</title><circle cx="243.0" cy="2326.5" r="2.6" fill="#3f6f3a"/><text class="c" x="236.0" y="2330.8" text-anchor="end">Column deletion</text></a>
+<rect x="346.9" y="2294.5" width="66.2" height="22" rx="11" fill="#fff" stroke="#3f6f3a" stroke-width="1.6"/><text class="g" x="380.0" y="2309.7" text-anchor="middle" fill="#3f6f3a">Delete</text>
+<path d="M617.7,2257.5 C517.2,2257.5 517.2,2412.0 416.8,2412.0" fill="none" stroke="#3f6f3a" stroke-width="1.8" stroke-opacity="0.7"/>
+<path d="M343.2,2412.0 C294.6,2412.0 294.6,2359.5 246.0,2359.5" fill="none" stroke="#3f6f3a" stroke-width="1" stroke-opacity="0.45"/>
+<a href="ds-eda-glossary.html#mean-median-mode-imputation"><title>Mean / median / mode imputation</title><circle cx="243.0" cy="2359.5" r="2.6" fill="#3f6f3a"/><text class="c" x="236.0" y="2363.8" text-anchor="end">Mean / median / mode imputation</text></a>
+<path d="M343.2,2412.0 C294.6,2412.0 294.6,2380.5 246.0,2380.5" fill="none" stroke="#3f6f3a" stroke-width="1" stroke-opacity="0.45"/>
+<a href="ds-eda-glossary.html#group-based-imputation"><title>Group-based imputation</title><circle cx="243.0" cy="2380.5" r="2.6" fill="#3f6f3a"/><text class="c" x="236.0" y="2384.8" text-anchor="end">Group-based imputation</text></a>
+<path d="M343.2,2412.0 C294.6,2412.0 294.6,2401.5 246.0,2401.5" fill="none" stroke="#3f6f3a" stroke-width="1" stroke-opacity="0.45"/>
+<a href="ds-eda-glossary.html#simpleimputer"><title>SimpleImputer</title><circle cx="243.0" cy="2401.5" r="2.6" fill="#3f6f3a"/><text class="c" x="236.0" y="2405.8" text-anchor="end">SimpleImputer</text></a>
+<path d="M343.2,2412.0 C294.6,2412.0 294.6,2422.5 246.0,2422.5" fill="none" stroke="#3f6f3a" stroke-width="1" stroke-opacity="0.45"/>
+<a href="ds-eda-glossary.html#knnimputer-and-iterativeimputer"><title>KNNImputer and IterativeImputer</title><circle cx="243.0" cy="2422.5" r="2.6" fill="#3f6f3a"/><text class="c" x="236.0" y="2426.8" text-anchor="end">KNN and iterative</text></a>
+<path d="M343.2,2412.0 C294.6,2412.0 294.6,2443.5 246.0,2443.5" fill="none" stroke="#3f6f3a" stroke-width="1" stroke-opacity="0.45"/>
+<a href="ds-eda-glossary.html#missing-indicator"><title>Missing indicator</title><circle cx="243.0" cy="2443.5" r="2.6" fill="#3f6f3a"/><text class="c" x="236.0" y="2447.8" text-anchor="end">Missing indicator</text></a>
+<path d="M343.2,2412.0 C294.6,2412.0 294.6,2464.5 246.0,2464.5" fill="none" stroke="#3f6f3a" stroke-width="1" stroke-opacity="0.45"/>
+<a href="ds-eda-glossary.html#missing-data-decision-order"><title>Missing data decision order</title><circle cx="243.0" cy="2464.5" r="2.6" fill="#3f6f3a"/><text class="c" x="236.0" y="2468.8" text-anchor="end">Decision order</text></a>
+<rect x="343.2" y="2401.0" width="73.6" height="22" rx="11" fill="#fff" stroke="#3f6f3a" stroke-width="1.6"/><text class="g" x="380.0" y="2416.2" text-anchor="middle" fill="#3f6f3a">Impute</text>
+<a href="ds-eda-glossary.html#s8-missing-data"><title>Go to section: 8. Missing data</title><rect x="617.7" y="2242.5" width="144.7" height="30" rx="15" fill="#3f6f3a"/><text class="m" x="690.0" y="2262.3" text-anchor="middle">8. Missing data</text></a>
+<path d="M880.0,1674.0 C821.0,1674.0 821.0,2808.8 762.0,2808.8" fill="none" stroke="#a63d55" stroke-width="3" stroke-opacity="0.85"/>
+<path d="M618.0,2808.8 C516.4,2808.8 516.4,2580.0 414.8,2580.0" fill="none" stroke="#a63d55" stroke-width="1.8" stroke-opacity="0.7"/>
+<path d="M345.2,2580.0 C295.6,2580.0 295.6,2527.5 246.0,2527.5" fill="none" stroke="#a63d55" stroke-width="1" stroke-opacity="0.45"/>
+<a href="ds-eda-glossary.html#experimental-unit"><title>Experimental unit</title><circle cx="243.0" cy="2527.5" r="2.6" fill="#a63d55"/><text class="c" x="236.0" y="2531.8" text-anchor="end">Experimental unit</text></a>
+<path d="M345.2,2580.0 C295.6,2580.0 295.6,2548.5 246.0,2548.5" fill="none" stroke="#a63d55" stroke-width="1" stroke-opacity="0.45"/>
+<a href="ds-eda-glossary.html#treatment-factor"><title>Treatment factor</title><circle cx="243.0" cy="2548.5" r="2.6" fill="#a63d55"/><text class="c" x="236.0" y="2552.8" text-anchor="end">Treatment factor</text></a>
+<path d="M345.2,2580.0 C295.6,2580.0 295.6,2569.5 246.0,2569.5" fill="none" stroke="#a63d55" stroke-width="1" stroke-opacity="0.45"/>
+<a href="ds-eda-glossary.html#control-group"><title>Control group</title><circle cx="243.0" cy="2569.5" r="2.6" fill="#a63d55"/><text class="c" x="236.0" y="2573.8" text-anchor="end">Control group</text></a>
+<path d="M345.2,2580.0 C295.6,2580.0 295.6,2590.5 246.0,2590.5" fill="none" stroke="#a63d55" stroke-width="1" stroke-opacity="0.45"/>
+<a href="ds-eda-glossary.html#blocking-factor"><title>Blocking factor</title><circle cx="243.0" cy="2590.5" r="2.6" fill="#a63d55"/><text class="c" x="236.0" y="2594.8" text-anchor="end">Blocking factor</text></a>
+<path d="M345.2,2580.0 C295.6,2580.0 295.6,2611.5 246.0,2611.5" fill="none" stroke="#a63d55" stroke-width="1" stroke-opacity="0.45"/>
+<a href="ds-eda-glossary.html#full-factorial-design"><title>Full factorial design</title><circle cx="243.0" cy="2611.5" r="2.6" fill="#a63d55"/><text class="c" x="236.0" y="2615.8" text-anchor="end">Full factorial design</text></a>
+<path d="M345.2,2580.0 C295.6,2580.0 295.6,2632.5 246.0,2632.5" fill="none" stroke="#a63d55" stroke-width="1" stroke-opacity="0.45"/>
+<a href="ds-eda-glossary.html#blinding"><title>Blinding</title><circle cx="243.0" cy="2632.5" r="2.6" fill="#a63d55"/><text class="c" x="236.0" y="2636.8" text-anchor="end">Blinding</text></a>
+<rect x="345.2" y="2569.0" width="69.7" height="22" rx="11" fill="#fff" stroke="#a63d55" stroke-width="1.6"/><text class="g" x="380.0" y="2584.2" text-anchor="middle" fill="#a63d55">Design</text>
+<path d="M618.0,2808.8 C524.0,2808.8 524.0,2707.5 430.1,2707.5" fill="none" stroke="#a63d55" stroke-width="1.8" stroke-opacity="0.7"/>
+<path d="M329.9,2707.5 C288.0,2707.5 288.0,2665.5 246.0,2665.5" fill="none" stroke="#a63d55" stroke-width="1" stroke-opacity="0.45"/>
+<a href="ds-eda-glossary.html#randomization"><title>Randomization</title><circle cx="243.0" cy="2665.5" r="2.6" fill="#a63d55"/><text class="c" x="236.0" y="2669.8" text-anchor="end">Randomization</text></a>
+<path d="M329.9,2707.5 C288.0,2707.5 288.0,2686.5 246.0,2686.5" fill="none" stroke="#a63d55" stroke-width="1" stroke-opacity="0.45"/>
+<a href="ds-eda-glossary.html#completely-randomized-block-design-crbd"><title>Completely Randomized Block Design (CRBD)</title><circle cx="243.0" cy="2686.5" r="2.6" fill="#a63d55"/><text class="c" x="236.0" y="2690.8" text-anchor="end">Block design (RCBD)</text></a>
+<path d="M329.9,2707.5 C288.0,2707.5 288.0,2707.5 246.0,2707.5" fill="none" stroke="#a63d55" stroke-width="1" stroke-opacity="0.45"/>
+<a href="ds-eda-glossary.html#within-subject-design"><title>Within-subject design</title><circle cx="243.0" cy="2707.5" r="2.6" fill="#a63d55"/><text class="c" x="236.0" y="2711.8" text-anchor="end">Within-subject design</text></a>
+<path d="M329.9,2707.5 C288.0,2707.5 288.0,2728.5 246.0,2728.5" fill="none" stroke="#a63d55" stroke-width="1" stroke-opacity="0.45"/>
+<a href="ds-eda-glossary.html#between-subject-design"><title>Between-subject design</title><circle cx="243.0" cy="2728.5" r="2.6" fill="#a63d55"/><text class="c" x="236.0" y="2732.8" text-anchor="end">Between-subject design</text></a>
+<path d="M329.9,2707.5 C288.0,2707.5 288.0,2749.5 246.0,2749.5" fill="none" stroke="#a63d55" stroke-width="1" stroke-opacity="0.45"/>
+<a href="ds-eda-glossary.html#order-and-carryover-effects"><title>Order and carryover effects</title><circle cx="243.0" cy="2749.5" r="2.6" fill="#a63d55"/><text class="c" x="236.0" y="2753.8" text-anchor="end">Order effects</text></a>
+<rect x="329.9" y="2696.5" width="100.2" height="22" rx="11" fill="#fff" stroke="#a63d55" stroke-width="1.6"/><text class="g" x="380.0" y="2711.7" text-anchor="middle" fill="#a63d55">Assignment</text>
+<path d="M618.0,2808.8 C517.5,2808.8 517.5,2814.0 417.1,2814.0" fill="none" stroke="#a63d55" stroke-width="1.8" stroke-opacity="0.7"/>
+<path d="M342.9,2814.0 C294.4,2814.0 294.4,2782.5 246.0,2782.5" fill="none" stroke="#a63d55" stroke-width="1" stroke-opacity="0.45"/>
+<a href="ds-eda-glossary.html#selection-bias"><title>Selection bias</title><circle cx="243.0" cy="2782.5" r="2.6" fill="#a63d55"/><text class="c" x="236.0" y="2786.8" text-anchor="end">Selection bias</text></a>
+<path d="M342.9,2814.0 C294.4,2814.0 294.4,2803.5 246.0,2803.5" fill="none" stroke="#a63d55" stroke-width="1" stroke-opacity="0.45"/>
+<a href="ds-eda-glossary.html#observational-study"><title>Observational study</title><circle cx="243.0" cy="2803.5" r="2.6" fill="#a63d55"/><text class="c" x="236.0" y="2807.8" text-anchor="end">Observational study</text></a>
+<path d="M342.9,2814.0 C294.4,2814.0 294.4,2824.5 246.0,2824.5" fill="none" stroke="#a63d55" stroke-width="1" stroke-opacity="0.45"/>
+<a href="ds-eda-glossary.html#internal-and-external-validity"><title>Internal and external validity</title><circle cx="243.0" cy="2824.5" r="2.6" fill="#a63d55"/><text class="c" x="236.0" y="2828.8" text-anchor="end">Internal / external validity</text></a>
+<path d="M342.9,2814.0 C294.4,2814.0 294.4,2845.5 246.0,2845.5" fill="none" stroke="#a63d55" stroke-width="1" stroke-opacity="0.45"/>
+<a href="ds-eda-glossary.html#proxy-metric"><title>Proxy metric</title><circle cx="243.0" cy="2845.5" r="2.6" fill="#a63d55"/><text class="c" x="236.0" y="2849.8" text-anchor="end">Proxy metric</text></a>
+<rect x="342.9" y="2803.0" width="74.2" height="22" rx="11" fill="#fff" stroke="#a63d55" stroke-width="1.6"/><text class="g" x="380.0" y="2818.2" text-anchor="middle" fill="#a63d55">Validity</text>
+<path d="M618.0,2808.8 C523.9,2808.8 523.9,2920.5 429.9,2920.5" fill="none" stroke="#a63d55" stroke-width="1.8" stroke-opacity="0.7"/>
+<path d="M330.1,2920.5 C288.1,2920.5 288.1,2878.5 246.0,2878.5" fill="none" stroke="#a63d55" stroke-width="1" stroke-opacity="0.45"/>
+<a href="ds-eda-glossary.html#null-hypothesis-h"><title>Null hypothesis (H₀)</title><circle cx="243.0" cy="2878.5" r="2.6" fill="#a63d55"/><text class="c" x="236.0" y="2882.8" text-anchor="end">Null hypothesis</text></a>
+<path d="M330.1,2920.5 C288.1,2920.5 288.1,2899.5 246.0,2899.5" fill="none" stroke="#a63d55" stroke-width="1" stroke-opacity="0.45"/>
+<a href="ds-eda-glossary.html#alternative-hypothesis-h"><title>Alternative hypothesis (H₁)</title><circle cx="243.0" cy="2899.5" r="2.6" fill="#a63d55"/><text class="c" x="236.0" y="2903.8" text-anchor="end">Alternative hypothesis</text></a>
+<path d="M330.1,2920.5 C288.1,2920.5 288.1,2920.5 246.0,2920.5" fill="none" stroke="#a63d55" stroke-width="1" stroke-opacity="0.45"/>
+<a href="ds-eda-glossary.html#significance-level"><title>Significance level (α)</title><circle cx="243.0" cy="2920.5" r="2.6" fill="#a63d55"/><text class="c" x="236.0" y="2924.8" text-anchor="end">Significance level</text></a>
+<path d="M330.1,2920.5 C288.1,2920.5 288.1,2941.5 246.0,2941.5" fill="none" stroke="#a63d55" stroke-width="1" stroke-opacity="0.45"/>
+<a href="ds-eda-glossary.html#type-i-and-type-ii-errors"><title>Type I and Type II errors</title><circle cx="243.0" cy="2941.5" r="2.6" fill="#a63d55"/><text class="c" x="236.0" y="2945.8" text-anchor="end">Type I / II errors</text></a>
+<path d="M330.1,2920.5 C288.1,2920.5 288.1,2962.5 246.0,2962.5" fill="none" stroke="#a63d55" stroke-width="1" stroke-opacity="0.45"/>
+<a href="ds-eda-glossary.html#multiple-testing"><title>Multiple testing</title><circle cx="243.0" cy="2962.5" r="2.6" fill="#a63d55"/><text class="c" x="236.0" y="2966.8" text-anchor="end">Multiple testing</text></a>
+<rect x="330.1" y="2909.5" width="99.8" height="22" rx="11" fill="#fff" stroke="#a63d55" stroke-width="1.6"/><text class="g" x="380.0" y="2924.7" text-anchor="middle" fill="#a63d55">Hypotheses</text>
+<path d="M618.0,2808.8 C517.4,2808.8 517.4,3037.5 416.8,3037.5" fill="none" stroke="#a63d55" stroke-width="1.8" stroke-opacity="0.7"/>
+<path d="M343.2,3037.5 C294.6,3037.5 294.6,2995.5 246.0,2995.5" fill="none" stroke="#a63d55" stroke-width="1" stroke-opacity="0.45"/>
+<a href="ds-eda-glossary.html#p-value"><title>p-value</title><circle cx="243.0" cy="2995.5" r="2.6" fill="#a63d55"/><text class="c" x="236.0" y="2999.8" text-anchor="end">p-value</text></a>
+<path d="M343.2,3037.5 C294.6,3037.5 294.6,3016.5 246.0,3016.5" fill="none" stroke="#a63d55" stroke-width="1" stroke-opacity="0.45"/>
+<a href="ds-eda-glossary.html#t-test-stats-ttest-ind"><title>t-test (stats.ttest_ind)</title><circle cx="243.0" cy="3016.5" r="2.6" fill="#a63d55"/><text class="c" x="236.0" y="3020.8" text-anchor="end">t-test</text></a>
+<path d="M343.2,3037.5 C294.6,3037.5 294.6,3037.5 246.0,3037.5" fill="none" stroke="#a63d55" stroke-width="1" stroke-opacity="0.45"/>
+<a href="ds-eda-glossary.html#welch-s-t-test-and-paired-t-test"><title>Welch&#x27;s t-test and paired t-test</title><circle cx="243.0" cy="3037.5" r="2.6" fill="#a63d55"/><text class="c" x="236.0" y="3041.8" text-anchor="end">Welch and paired t-tests</text></a>
+<path d="M343.2,3037.5 C294.6,3037.5 294.6,3058.5 246.0,3058.5" fill="none" stroke="#a63d55" stroke-width="1" stroke-opacity="0.45"/>
+<a href="ds-eda-glossary.html#effect-size-cohen-s-d"><title>Effect size (Cohen&#x27;s d)</title><circle cx="243.0" cy="3058.5" r="2.6" fill="#a63d55"/><text class="c" x="236.0" y="3062.8" text-anchor="end">Effect size</text></a>
+<path d="M343.2,3037.5 C294.6,3037.5 294.6,3079.5 246.0,3079.5" fill="none" stroke="#a63d55" stroke-width="1" stroke-opacity="0.45"/>
+<a href="ds-eda-glossary.html#a-b-test"><title>A/B test</title><circle cx="243.0" cy="3079.5" r="2.6" fill="#a63d55"/><text class="c" x="236.0" y="3083.8" text-anchor="end">A/B test</text></a>
+<rect x="343.2" y="3026.5" width="73.7" height="22" rx="11" fill="#fff" stroke="#a63d55" stroke-width="1.6"/><text class="g" x="380.0" y="3041.7" text-anchor="middle" fill="#a63d55">Testing</text>
+<a href="ds-eda-glossary.html#s7-experimental-design-and-hypothesis-testing"><title>Go to section: 7. Experiments</title><rect x="618.0" y="2793.8" width="144.1" height="30" rx="15" fill="#a63d55"/><text class="m" x="690.0" y="2813.6" text-anchor="middle">7. Experiments</text></a>
+<a href="ds-eda-glossary.html#contents"><title>Contents</title><rect x="830.0" y="1642.0" width="220" height="64" rx="10" fill="#18232c"/><text x="940.0" y="1670.0" text-anchor="middle" fill="#fff" font-size="18" font-family="Georgia, serif">Exploratory</text><text x="940.0" y="1692.0" text-anchor="middle" fill="#fff" font-size="18" font-family="Georgia, serif">Data Analysis</text></a>
+</svg>

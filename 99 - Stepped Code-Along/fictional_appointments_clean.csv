@@ -1,0 +1,14 @@
+appointment_id,booking_date,appointment_date,department,appointment_type,wait_minutes,scheduled_minutes,status,reminder_sent,booking_channel,lead_days,valid_wait,valid_duration,valid_date_order,valid_id,record_issues,record_valid
+APT-1001,2026-09-01,2026-09-05,General Practice,Initial,12,20,Completed,True,Phone,4,True,True,True,True,No detected issues,True
+APT-1002,2026-09-01,2026-09-06,Physiotherapy,Follow-up,25,30,Completed,True,Online,5,True,True,True,True,No detected issues,True
+APT-1003,2026-09-02,2026-09-06,Dermatology,Initial,8,20,Completed,False,Phone,4,True,True,True,True,No detected issues,True
+APT-1004,2026-09-02,2026-09-07,General Practice,Follow-up,,15,Cancelled,True,Online,5,False,True,True,True,missing or invalid wait minutes,False
+APT-1005,2026-09-03,2026-09-08,Physiotherapy,Initial,40,,Completed,True,Reception,5,True,False,True,True,missing or invalid scheduled minutes,False
+APT-1006,2026-09-03,2026-09-08,General Practice,Initial,15,20,Missed,False,Phone,5,True,True,True,True,No detected issues,True
+APT-1007,2026-09-04,2026-09-09,Dermatology,Follow-up,18,15,Completed,True,Online,5,True,True,True,True,No detected issues,True
+APT-1008,2026-09-04,2026-09-10,General Practice,Initial,6,20,Completed,True,Reception,6,True,True,True,True,No detected issues,True
+APT-1009,2026-09-05,2026-09-10,Physiotherapy,Follow-up,-4,30,Completed,True,Online,5,False,True,True,True,negative wait minutes,False
+APT-1010,2026-09-05,,Dermatology,Initial,,20,Cancelled,False,Phone,,False,True,False,True,missing or invalid appointment date; missing or invalid wait minutes,False
+APT-1011,2026-09-12,2026-09-11,General Practice,Follow-up,10,15,Completed,True,Unknown,-1,True,True,False,True,appointment date before booking date,False
+APT-1012,2026-09-06,2026-09-12,Physiotherapy,Initial,30,45,Missed,True,Reception,6,True,True,True,True,No detected issues,True
+APT-1013,,2026-09-13,Dermatology,Initial,22,20,Completed,,Online,,True,True,False,True,missing or invalid booking date; missing reminder status,False
